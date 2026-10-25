@@ -7,6 +7,9 @@
 
 A comprehensive, structured, and exam-focused revision guide for the **AWS Certified Cloud Practitioner (CLF-C02)** exam. This repository covers all exam domains, core concepts, AWS services, architectural principles, security models, billing mechanisms, **real exam question patterns, distractor trap analysis**, and high-yield comparison cheat sheets with direct video lecture timestamps from the renowned [freeCodeCamp 13+ Hour Full Course](https://www.youtube.com/watch?v=7HKot-brXFE).
 
+> [!TIP]
+> **Ready to test yourself?** Practice with the free **CLF-C02 mock tests** at **[heymehedi.im/aws-cloud-practitioner](https://heymehedi.im/aws-cloud-practitioner)**. They include an explanation for every question and a timed, full-length exam simulation.
+
 ---
 
 ## 🎯 Exam Overview & Blueprint
@@ -1436,6 +1439,11 @@ graph LR
 - **"Expert firm to design, migrate, and manage workloads"** ➔ **APN Services Path (Consulting Partner)** *(NOT Technology Partner!)*.
 - **"Minimum charge for EC2 per-second billing"** ➔ **60 seconds minimum**.
 - **"What is generally FREE in AWS?"** ➔ **Inbound data transfer from internet**, **data transfer between EC2 in same AZ via private IP**, **IAM**, **Organizations**, **VPC creation**, **CloudFormation templates**.
+
+### 📝 Mock Tests & Practice Exams:
+- **[Take the free CLF-C02 mock tests](https://heymehedi.im/aws-cloud-practitioner)**: Domain-wise practice sets and a timed full-length exam simulation, with an explanation for each question.
+- **Mirror the real exam**: 65 questions in 90 minutes, aiming for **70%+** (the passing score is **700 / 1000**).
+- **Learn from every miss**: Re-read the explanation, then revisit the matching section of this guide and the [Question Patterns & Trap Guide](#-decoding-the-clf-c02-exam-question-patterns--trap-guide).
 
 ---
 
