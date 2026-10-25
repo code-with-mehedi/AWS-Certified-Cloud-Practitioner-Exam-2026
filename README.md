@@ -1320,20 +1320,48 @@ graph LR
   - [13:31:24 - Variation Study & Know Your Initialisms](https://www.youtube.com/watch?v=7HKot-brXFE&t=48684s)
   - [13:34:09 - AWS Config vs AWS AppConfig](https://www.youtube.com/watch?v=7HKot-brXFE&t=48849s)
   - [13:35:04 - SNS vs SQS](https://www.youtube.com/watch?v=7HKot-brXFE&t=48904s)
+  - [13:36:42 - SNS vs SES vs PinPoint vs Workmail](https://www.youtube.com/watch?v=7HKot-brXFE&t=49002s)
   - [13:39:46 - Amazon Inspector vs AWS Trusted Advisor](https://www.youtube.com/watch?v=7HKot-brXFE&t=49186s)
+  - [13:41:55 - Connect Named Services & Elastic Transcoder vs MediaConvert](https://www.youtube.com/watch?v=7HKot-brXFE&t=49315s)
+  - [13:43:40 - AWS Artifact vs Amazon Inspector](https://www.youtube.com/watch?v=7HKot-brXFE&t=49420s)
+  - [13:43:40 - ELB Variants (Elastic Load Balancer)](https://www.youtube.com/watch?v=7HKot-brXFE&t=49420s)
 
 | Confused Pair | Service A Focus | Service B Focus | Key Exam Differentiator |
 | :--- | :--- | :--- | :--- |
+| **Artifact vs. Inspector** | **AWS Artifact**: Self-service portal to download AWS compliance & audit reports (SOC 1/2/3, ISO, PCI-DSS) and sign BAA agreements. | **Amazon Inspector**: Automated security assessment service that scans *customer* EC2 instances, ECR container images, and Lambda functions for software vulnerabilities (CVEs). | Artifact is for *AWS audit/compliance documents*; Inspector is for *scanning workload software vulnerabilities*. |
 | **Config vs. AppConfig** | **AWS Config**: Audits AWS resource configuration changes & compliance over time. | **AWS AppConfig**: Manages application feature flags and runtime configurations. | Config is for *infrastructure compliance*; AppConfig is for *app software feature toggles*. |
 | **SNS vs. SQS** | **Amazon SNS**: Push notification pub/sub fanout. | **Amazon SQS**: Message queue where workers pull and process. | SNS *pushes to many*; SQS *stores messages for one worker to pull*. |
 | **Messaging Services** | **Amazon SES**: Bulk/transactional inbound & outbound email. | **Amazon Pinpoint**: Multi-channel marketing campaigns (SMS, email, push). | SES is for *transactional emails*; Pinpoint is for *targeted user engagement campaigns*. |
 | **Inspector vs. Trusted Advisor** | **Amazon Inspector**: Scans EC2, ECR, Lambda for software vulnerabilities (CVEs). | **AWS Trusted Advisor**: Recommends best practices across cost, security, fault tolerance, performance, limits. | Inspector scans *workload code & OS CVEs*; Trusted Advisor scans *account-level best practices*. |
 | **Artifact vs. Macie** | **AWS Artifact**: Compliance documentation (SOC, ISO, BAA). | **Amazon Macie**: Discovers sensitive PII data stored in S3. | Artifact is for *AWS audit reports*; Macie is for *finding PII in S3*. |
 | **KMS vs. CloudHSM** | **AWS KMS**: Managed multi-tenant cryptographic keys. | **AWS CloudHSM**: Dedicated single-tenant hardware HSM under customer sole control. | KMS is *managed and shared hardware*; CloudHSM is *dedicated physical hardware*. |
-| **ALB vs. NLB** | **Application Load Balancer**: Layer 7 HTTP/HTTPS path routing. | **Network Load Balancer**: Layer 4 TCP/UDP, ultra-low latency, static IP. | ALB is for *Layer 7 web apps*; NLB is for *Layer 4 extreme performance & gaming*. |
 | **MediaConvert vs. Transcoder** | **AWS Elemental MediaConvert**: Modern broadcast-grade video transcoding. | **Amazon Elastic Transcoder**: Legacy cloud video transcoding. | MediaConvert has superseded Elastic Transcoder. |
 | **CloudFormation vs. CodeDeploy** | **CloudFormation**: Provisions infrastructure stacks from templates. | **CodeDeploy**: Installs application code onto EC2 and on-premises servers. | CloudFormation creates *infrastructure*; CodeDeploy rolls out *software code*. |
 | **Pricing Calculator vs. Cost Explorer** | **Pricing Calculator**: Estimates costs *before* deployment. | **Cost Explorer**: Analyzes past spend and *forecasts* future spend. | Calculator is *pre-build modeling*; Cost Explorer is *post-launch analytics & forecast*. |
+
+---
+
+#### 🔍 Deep Dive: AWS Artifact vs. Amazon Inspector
+- **AWS Artifact**:
+  - Think: **"AWS Compliance Documentation Locker"**.
+  - Provides on-demand access to AWS security and compliance reports (e.g., SOC reports, PCI-DSS compliance packages, ISO certifications).
+  - Used to review, accept, and manage agreements with AWS (such as the Business Associate Addendum / BAA for HIPAA compliance).
+  - 🔑 **Exam Trigger**: *"Where can a compliance officer download AWS's ISO 27001 certification or SOC 2 report?"* ➔ **AWS Artifact**.
+- **Amazon Inspector**:
+  - Think: **"Vulnerability Scanner for Your Workloads"**.
+  - Automatically assesses EC2 instances, ECR container images, and Lambda functions for software vulnerabilities (CVEs) and unintended network exposure.
+  - 🔑 **Exam Trigger**: *"Which service automatically checks EC2 instances and container images for software vulnerabilities and CVEs?"* ➔ **Amazon Inspector**.
+
+---
+
+#### ⚖️ Deep Dive: Elastic Load Balancer (ELB) Variants
+
+| ELB Variant | OSI Layer | Supported Protocols | Key Strengths & Features | 🔑 Exam Scenario Triggers |
+| :--- | :---: | :--- | :--- | :--- |
+| **Application Load Balancer (ALB)** | **Layer 7** (Application) | HTTP, HTTPS, gRPC, WebSockets | - Path-based routing (`/api`, `/static`)<br/>- Host-based routing (`app.domain.com`)<br/>- Query parameter & header routing<br/>- Native integration with **AWS WAF**<br/>- Redirects (HTTP to HTTPS) | *"Route HTTP/HTTPS traffic based on request URL path, host header, or microservices on ECS"* |
+| **Network Load Balancer (NLB)** | **Layer 4** (Transport) | TCP, UDP, TLS | - Ultra-high performance (millions of requests/sec)<br/>- Ultra-low latency (sub-millisecond)<br/>- Provides **static Anycast IP addresses** or Elastic IPs per AZ<br/>- Preserves client source IP | *"Extreme performance, millions of requests per second, ultra-low latency, static IP addresses, gaming, VoIP"* |
+| **Gateway Load Balancer (GWLB)** | **Layer 3 & 4** (Network & Transport) | IP packets (GENEVE protocol) | - Transparent network gateway & load balancer<br/>- Routes all traffic through a fleet of third-party virtual security appliances (firewalls, deep packet inspection, IDS/IPS)<br/>- Scales appliances horizontally | *"Deploy, scale, and manage a fleet of third-party virtual firewall appliances or deep packet inspection"* |
+| **Classic Load Balancer (CLB)** | Layer 4 & 7 | HTTP, HTTPS, TCP, SSL | - Previous generation (legacy)<br/>- Basic load balancing across EC2 instances<br/>- Does not support advanced path routing or static IPs | *"Legacy EC2-Classic applications (rarely the correct answer for modern architectures)"* |
 
 ---
 
