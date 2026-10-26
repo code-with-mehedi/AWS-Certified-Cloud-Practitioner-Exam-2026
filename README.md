@@ -9,6 +9,8 @@ A comprehensive, structured, and exam-focused revision guide for the **AWS Certi
 
 > [!TIP]
 > **Ready to test yourself?** Practice with the free **CLF-C02 mock tests** at **[heymehedi.im/aws-cloud-practitioner](https://heymehedi.im/aws-cloud-practitioner)**. They include an explanation for every question and a timed, full-length exam simulation.
+>
+> **Prefer to practice right here?** Every topic has **5 exam-style practice questions**. Click an option to see right away whether it is right or wrong: **[practice-questions/](practice-questions/README.md)**.
 
 ---
 
@@ -152,6 +154,7 @@ pie title CLF-C02 Exam Domains Weighting
     - [17.1 Commonly Confused Services Cheat Sheet](#171-commonly-confused-services-cheat-sheet)
     - [17.2 Essential Acronyms & Initialisms Reference](#172-essential-acronyms--initialisms-reference)
   - [18. 🎓 Exam Strategy & Last-Minute Checklist](#18--exam-strategy--last-minute-checklist)
+  - [📝 Practice Questions (5 per topic)](practice-questions/README.md)
 
 ---
 
@@ -302,6 +305,8 @@ graph TD
 - **AWS Migration Evaluator** *(formerly TSO Logic)*: Builds a data-driven business case for migration by analyzing actual on-premises utilization and projecting AWS costs (replaces the retired TCO Calculator).
 - **AWS DataSync**: Automated, high-speed online network data transfer between on-premises storage and S3, EFS, or FSx.
 
+> 📝 **Test yourself:** [5 practice questions on Introduction & Cloud Fundamentals](practice-questions/01-cloud-fundamentals.md)
+
 ---
 
 ## 2. 🛡️ Getting Started & Account Security Baseline
@@ -350,6 +355,8 @@ graph TD
 
 - **AWS Budgets**: Configures custom budgets to track costs and usage against thresholds. Alerts via email or SNS when **actual OR forecasted** spend crosses a threshold (e.g., 80% or 100%). Can trigger automated budget actions (e.g., apply an SCP or stop an instance).
 - **CloudWatch Billing Alarms**: Monitored in the `us-east-1` region (where global billing metric data resides) to notify via Amazon SNS when total charges exceed a set dollar amount (e.g., $0.01 for a zero-spend alarm).
+
+> 📝 **Test yourself:** [5 practice questions on Getting Started & Account Security Baseline](practice-questions/02-account-security-baseline.md)
 
 ---
 
@@ -453,6 +460,8 @@ graph LR
 - **AWS China Regions**: Physically isolated regions operated by local Chinese partners (Sinnet in Beijing, NWCD in Ningxia).
 - **Customer Carbon Footprint Tool**: Measures and tracks carbon emissions associated with your AWS usage.
 
+> 📝 **Test yourself:** [5 practice questions on AWS Global Infrastructure](practice-questions/03-global-infrastructure.md)
+
 ---
 
 ## 4. 📐 Cloud Architecture & Reliability
@@ -516,6 +525,8 @@ A standard highly available AWS architecture deploys across multiple AZs:
 2. **Application Load Balancer (ALB)**: Distributes incoming web traffic across multiple AZs.
 3. **Auto Scaling Group (ASG)**: Maintains target EC2 instance count across multiple AZs.
 4. **RDS Multi-AZ**: Replicates database synchronously to a standby instance in a second AZ with automatic failover.
+
+> 📝 **Test yourself:** [5 practice questions on Cloud Architecture & Reliability](practice-questions/04-architecture-reliability.md)
 
 ---
 
@@ -590,6 +601,8 @@ arn:partition:service:region:account-id:resource-type/resource-id
 >   - **Session Manager**: Open a browser shell session into EC2 without opening inbound SSH ports (port 22) or managing bastion hosts.
 >   - **Parameter Store**: Store configuration values and secrets (can encrypt with KMS).
 
+> 📝 **Test yourself:** [5 practice questions on Management, Governance & Developer Tools](practice-questions/05-management-governance-developer-tools.md)
+
 ---
 
 ## 6. 🤝 AWS Shared Responsibility Model
@@ -648,6 +661,8 @@ graph TB
   1. **Patch Management**: AWS patches physical hosts; customer patches guest OS on EC2.
   2. **Configuration Management**: AWS configures physical network devices; customer configures security groups and virtual networks.
   3. **Awareness & Training**: AWS trains AWS employees; customer trains customer employees.
+
+> 📝 **Test yourself:** [5 practice questions on AWS Shared Responsibility Model](practice-questions/06-shared-responsibility-model.md)
 
 ---
 
@@ -752,6 +767,8 @@ graph TB
 - **AWS Batch**: Plans, schedules, and executes hundreds of thousands of batch computing jobs dynamically across EC2 and Spot instances.
 - **AWS App Runner**: Fully managed service to deploy containerized web apps and APIs directly from source code or container images with zero infrastructure configuration.
 
+> 📝 **Test yourself:** [5 practice questions on Compute Services](practice-questions/07-compute-services.md)
+
 ---
 
 ## 8. 🗄️ Storage Services
@@ -837,6 +854,8 @@ graph TB
 - Seamlessly connects on-premises applications to AWS cloud storage.
 - Types: File Gateway (NFS/SMB), Volume Gateway (iSCSI block storage), Tape Gateway (VTL for virtual tape backups).
 
+> 📝 **Test yourself:** [5 practice questions on Storage Services](practice-questions/08-storage-services.md)
+
 ---
 
 ## 9. 📊 Database & Analytics Services
@@ -918,6 +937,8 @@ graph TD
 | **Amazon QuickSight** | Business Intelligence (BI) | *"Interactive dashboards, data visualizations, business reports, natural language query"* |
 | **Amazon Kinesis** | Real-Time Streaming Data | *"Ingest and process real-time streaming clickstreams, IoT telemetry, video streams"* |
 
+> 📝 **Test yourself:** [5 practice questions on Database & Analytics Services](practice-questions/09-database-analytics.md)
+
 ---
 
 ## 10. 🔌 Networking & Content Delivery
@@ -985,6 +1006,8 @@ graph TD
   - **Weighted**: Splits traffic by percentage (e.g., 90% to v1, 10% to v2).
   - **Geolocation**: Routes traffic based on the user's geographic location/country.
   - **Failover**: Active-passive automatic disaster recovery failover via health checks.
+
+> 📝 **Test yourself:** [5 practice questions on Networking & Content Delivery](practice-questions/10-networking-content-delivery.md)
 
 ---
 
@@ -1066,6 +1089,8 @@ graph TD
 - **Penetration Testing**: Customers can perform penetration tests on permitted services (EC2, RDS, Aurora, API Gateway) **without prior approval**. Prohibited: DNS zone walking, DoS/DDoS simulation, port flooding.
 - **AWS Abuse Team (Trust & Safety)**: Contact if you suspect AWS resources are used for abusive purposes (spam, malware, port scanning).
 
+> 📝 **Test yourself:** [5 practice questions on Security, Identity & Compliance](practice-questions/11-security-identity-compliance.md)
+
 ---
 
 ## 12. 🔄 Application Integration & Messaging
@@ -1100,6 +1125,8 @@ graph TD
 
 - **AWS Step Functions**: Serverless visual state machine orchestrating multiple AWS services (Lambda functions) into resilient workflows with error retries.
 - **Amazon API Gateway**: Fully managed "front door" to publish, secure, and monitor REST, HTTP, and WebSocket APIs at scale.
+
+> 📝 **Test yourself:** [5 practice questions on Application Integration & Messaging](practice-questions/12-application-integration-messaging.md)
 
 ---
 
@@ -1154,6 +1181,8 @@ graph LR
 
 - **Collecting Server Logs**: To collect operating system and application log files from EC2 instances and on-premises servers into one central searchable place, install the **Amazon CloudWatch Agent** and stream to **CloudWatch Logs**. (CloudTrail CANNOT collect server log files!).
 
+> 📝 **Test yourself:** [5 practice questions on Cloud Governance, Management & Monitoring](practice-questions/13-cloud-governance-management-monitoring.md)
+
 ---
 
 ## 14. 🤖 Machine Learning, AI & High-Performance Compute
@@ -1189,6 +1218,8 @@ graph LR
 - **AWS Inferentia**: Custom silicon chip purpose-built for deep learning **model inference** (predictions) at lowest cost.
 - **AWS Graviton**: Custom ARM-based processor built by AWS delivering up to 40% better price-performance over comparable x86 processors.
 
+> 📝 **Test yourself:** [5 practice questions on Machine Learning, AI & High-Performance Compute](practice-questions/14-ml-ai-hpc.md)
+
 ---
 
 ## 15. 🏛️ AWS Well-Architected Framework
@@ -1218,6 +1249,8 @@ graph LR
   - [11:28:41 - AWS Well-Architected-Tool](https://www.youtube.com/watch?v=7HKot-brXFE&t=41321s)
 
 - **AWS Well-Architected Tool**: Free service in the management console that lets you review your workloads against the six pillars of the Well-Architected Framework and provides an action plan for improvement.
+
+> 📝 **Test yourself:** [5 practice questions on AWS Well-Architected Framework](practice-questions/15-well-architected-framework.md)
 
 ---
 
@@ -1313,6 +1346,8 @@ graph LR
 - **AWS Marketplace**: Digital catalog of third-party software, data, and services deployed on AWS with billing consolidated directly onto your AWS invoice.
 - **AWS Activate**: Program providing eligible startups with free AWS credits, technical support, and resources.
 - **AWS re:Post**: Community-driven Q&A service where customers get technical answers from the AWS community and experts (replaces AWS Forums).
+
+> 📝 **Test yourself:** [5 practice questions on Billing, Pricing & Support Plans](practice-questions/16-billing-pricing-support.md)
 
 ---
 
@@ -1411,6 +1446,8 @@ graph LR
 | **VPC** | Virtual Private Cloud | Logically isolated private network in the cloud. |
 | **WAF** | Web Application Firewall | Layer 7 firewall protecting web applications from common web exploits. |
 
+> 📝 **Test yourself:** [5 practice questions on High-Yield Exam "Cheat Sheet" & Service Disambiguation](practice-questions/17-service-disambiguation.md)
+
 ---
 
 ## 18. 🎓 Exam Strategy & Last-Minute Checklist
@@ -1444,6 +1481,8 @@ graph LR
 - **[Take the free CLF-C02 mock tests](https://heymehedi.im/aws-cloud-practitioner)**: Domain-wise practice sets and a timed full-length exam simulation, with an explanation for each question.
 - **Mirror the real exam**: 65 questions in 90 minutes, aiming for **70%+** (the passing score is **700 / 1000**).
 - **Learn from every miss**: Re-read the explanation, then revisit the matching section of this guide and the [Question Patterns & Trap Guide](#-decoding-the-clf-c02-exam-question-patterns--trap-guide).
+
+> 📝 **Test yourself:** [5 practice questions on Exam Strategy & Last-Minute Checklist](practice-questions/18-exam-strategy.md)
 
 ---
 
