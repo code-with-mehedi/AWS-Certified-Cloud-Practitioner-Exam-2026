@@ -1,11 +1,9 @@
-# 📝 Practice Questions: 7. 💻 Compute Services
+# Practice questions: 7. Compute Services
 
-[⬅️ Study guide: 7. 💻 Compute Services](../README.md#7--compute-services) · [📚 All topics](README.md) · [Next: 8. 🗄️ Storage Services ➡️](08-storage-services.md)
+[Study guide: 7. Compute Services](../README.md#7--compute-services) · [All topics](README.md) · [Next: 8. Storage Services](08-storage-services.md)
 
 > [!NOTE]
-> **How to practice:** read the question, decide on your answer, then **click an option** to reveal whether it is ✅ right or ❌ wrong, and why. ◯ means choose **one** answer. ☐ means choose **all** the answers the question asks for, so click each option you think is correct.
-
----
+> Read the question and decide on your answer, then click an option to see whether it is right or wrong and why. A round marker (◯) means pick one answer. A square marker (☐) means pick every answer the question asks for, so click each option you think is correct.
 
 ### Question 1
 
@@ -15,7 +13,7 @@ A company wants to run containers on Amazon ECS or Amazon EKS without provisioni
 
 <details><summary>◯ <b>A.</b> Amazon Elastic Container Registry (Amazon ECR)</summary>
 
-❌ **Incorrect.** ECR stores and manages container images. It does not run containers.
+❌ **Incorrect.** ECR stores and manages container images but does not run containers.
 
 </details>
 
@@ -27,7 +25,7 @@ A company wants to run containers on Amazon ECS or Amazon EKS without provisioni
 
 <details><summary>◯ <b>C.</b> Amazon Lightsail</summary>
 
-❌ **Incorrect.** Lightsail provides simple virtual private servers with bundled resources and a predictable price. It is not a compute engine for ECS or EKS.
+❌ **Incorrect.** Lightsail gives you simple virtual private servers with bundled resources and a predictable price, but it is not a compute engine for ECS or EKS.
 
 </details>
 
@@ -37,9 +35,7 @@ A company wants to run containers on Amazon ECS or Amazon EKS without provisioni
 
 </details>
 
-📖 **Study:** [7.5 Containers on AWS: ECS, EKS, Fargate, ECR](../README.md#75-containers-on-aws-ecs-eks-fargate-ecr)
-
----
+Study: [7.5 Containers on AWS: ECS, EKS, Fargate, ECR](../README.md#75-containers-on-aws-ecs-eks-fargate-ecr)
 
 ### Question 2
 
@@ -71,9 +67,7 @@ Which Amazon EC2 instance family category is best suited for memory-intensive wo
 
 </details>
 
-📖 **Study:** [7.1 Amazon Elastic Compute Cloud (EC2) Overview & Families](../README.md#71-amazon-elastic-compute-cloud-ec2-overview--families)
-
----
+Study: [7.1 Amazon Elastic Compute Cloud (EC2) Overview & Families](../README.md#71-amazon-elastic-compute-cloud-ec2-overview--families)
 
 ### Question 3
 
@@ -111,9 +105,7 @@ Which TWO statements about AWS Lambda are correct?
 
 </details>
 
-📖 **Study:** [7.6 Serverless Compute: AWS Lambda](../README.md#76-serverless-compute-aws-lambda)
-
----
+Study: [7.6 Serverless Compute: AWS Lambda](../README.md#76-serverless-compute-aws-lambda)
 
 ### Question 4
 
@@ -123,19 +115,19 @@ A company runs a fault-tolerant image-rendering batch job that can be interrupte
 
 <details><summary>◯ <b>A.</b> On-Demand Instances</summary>
 
-❌ **Incorrect.** On-Demand has no commitment but it is the baseline price, so it costs far more than Spot.
+❌ **Incorrect.** On-Demand is the baseline price with no commitment, so it costs far more than Spot.
 
 </details>
 
 <details><summary>◯ <b>B.</b> Standard Reserved Instances</summary>
 
-❌ **Incorrect.** Reserved Instances discount steady-state workloads in exchange for a 1-year or 3-year commitment. They are not the cheapest choice for interruptible jobs.
+❌ **Incorrect.** Reserved Instances give a discount on steady-state workloads in exchange for a 1-year or 3-year commitment. For interruptible jobs they are not the cheapest choice.
 
 </details>
 
 <details><summary>◯ <b>C.</b> Spot Instances</summary>
 
-✅ **Correct.** Spot Instances offer up to a 90% discount. AWS can reclaim them with a 2-minute warning, which this fault-tolerant job can handle.
+✅ **Correct.** Spot Instances are discounted by up to 90%. AWS can reclaim them with a 2-minute warning, which this fault-tolerant job can handle.
 
 </details>
 
@@ -145,9 +137,7 @@ A company runs a fault-tolerant image-rendering batch job that can be interrupte
 
 </details>
 
-📖 **Study:** [7.3 EC2 Pricing Models Matrix & Rules](../README.md#73-ec2-pricing-models-matrix--rules)
-
----
+Study: [7.3 EC2 Pricing Models Matrix & Rules](../README.md#73-ec2-pricing-models-matrix--rules)
 
 ### Question 5
 
@@ -163,13 +153,13 @@ A company wants to reuse its existing per-socket and per-core server software li
 
 <details><summary>◯ <b>B.</b> Amazon EC2 Spot Instances</summary>
 
-❌ **Incorrect.** Spot is a pricing model for spare capacity. It does not provide physical server visibility.
+❌ **Incorrect.** Spot is a pricing model for spare capacity, so there is no visibility into physical servers.
 
 </details>
 
 <details><summary>◯ <b>C.</b> Amazon EC2 On-Demand Capacity Reservations</summary>
 
-❌ **Incorrect.** A Capacity Reservation guarantees capacity in an Availability Zone. It does not provide physical server visibility.
+❌ **Incorrect.** A Capacity Reservation guarantees capacity in an Availability Zone but gives no view of the physical servers.
 
 </details>
 
@@ -179,10 +169,8 @@ A company wants to reuse its existing per-socket and per-core server software li
 
 </details>
 
-📖 **Study:** [7.2 EC2 Tenancy: Shared vs. Dedicated Instances vs. Dedicated Hosts](../README.md#72-ec2-tenancy-shared-vs-dedicated-instances-vs-dedicated-hosts)
+Study: [7.2 EC2 Tenancy: Shared vs. Dedicated Instances vs. Dedicated Hosts](../README.md#72-ec2-tenancy-shared-vs-dedicated-instances-vs-dedicated-hosts)
 
----
-
-[⬅️ Study guide: 7. 💻 Compute Services](../README.md#7--compute-services) · [📚 All topics](README.md) · [Next: 8. 🗄️ Storage Services ➡️](08-storage-services.md)
+[Study guide: 7. Compute Services](../README.md#7--compute-services) · [All topics](README.md) · [Next: 8. Storage Services](08-storage-services.md)
 
 *Original exam-style practice questions written for this study guide. They are not actual AWS exam questions, and this project is not affiliated with or endorsed by AWS.*

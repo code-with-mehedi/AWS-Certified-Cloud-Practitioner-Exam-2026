@@ -1,11 +1,9 @@
-# 📝 Practice Questions: 3. 🌐 AWS Global Infrastructure
+# Practice questions: 3. AWS Global Infrastructure
 
-[⬅️ Study guide: 3. 🌐 AWS Global Infrastructure](../README.md#3--aws-global-infrastructure) · [📚 All topics](README.md) · [Next: 4. 📐 Cloud Architecture & Reliability ➡️](04-architecture-reliability.md)
+[Study guide: 3. AWS Global Infrastructure](../README.md#3--aws-global-infrastructure) · [All topics](README.md) · [Next: 4. Cloud Architecture & Reliability](04-architecture-reliability.md)
 
 > [!NOTE]
-> **How to practice:** read the question, decide on your answer, then **click an option** to reveal whether it is ✅ right or ❌ wrong, and why. ◯ means choose **one** answer. ☐ means choose **all** the answers the question asks for, so click each option you think is correct.
-
----
+> Read the question and decide on your answer, then click an option to see whether it is right or wrong and why. A round marker (◯) means pick one answer. A square marker (☐) means pick every answer the question asks for, so click each option you think is correct.
 
 ### Question 1
 
@@ -15,7 +13,7 @@ A company must keep its customer data inside one specific country because of leg
 
 <details><summary>◯ <b>A.</b> Lowest latency to end users</summary>
 
-❌ **Incorrect.** Latency matters, but it is secondary when the law restricts where the data may be stored.
+❌ **Incorrect.** When the law restricts where the data may be stored, latency becomes a secondary concern.
 
 </details>
 
@@ -37,9 +35,7 @@ A company must keep its customer data inside one specific country because of leg
 
 </details>
 
-📖 **Study:** [3.1 AWS Regions & Availability Zones (AZs)](../README.md#31-aws-regions--availability-zones-azs)
-
----
+Study: [3.1 AWS Regions & Availability Zones (AZs)](../README.md#31-aws-regions--availability-zones-azs)
 
 ### Question 2
 
@@ -71,9 +67,7 @@ Which statement correctly describes an AWS Availability Zone (AZ)?
 
 </details>
 
-📖 **Study:** [3.1 AWS Regions & Availability Zones (AZs)](../README.md#31-aws-regions--availability-zones-azs)
-
----
+Study: [3.1 AWS Regions & Availability Zones (AZs)](../README.md#31-aws-regions--availability-zones-azs)
 
 ### Question 3
 
@@ -83,7 +77,7 @@ Which TWO statements about AWS Regions and Availability Zones are correct?
 
 <details><summary>☐ <b>A.</b> An Availability Zone is made up of several AWS Regions</summary>
 
-❌ **Incorrect.** A Region is made up of several Availability Zones, not the other way around.
+❌ **Incorrect.** A Region is made up of several Availability Zones, so this statement has it backwards.
 
 </details>
 
@@ -111,9 +105,7 @@ Which TWO statements about AWS Regions and Availability Zones are correct?
 
 </details>
 
-📖 **Study:** [3.1 AWS Regions & Availability Zones (AZs)](../README.md#31-aws-regions--availability-zones-azs)
-
----
+Study: [3.1 AWS Regions & Availability Zones (AZs)](../README.md#31-aws-regions--availability-zones-azs)
 
 ### Question 4
 
@@ -145,9 +137,7 @@ Which of the following is a global AWS service that is not tied to a single Regi
 
 </details>
 
-📖 **Study:** [3.4 Regional vs. Global AWS Services](../README.md#34-regional-vs-global-aws-services)
-
----
+Study: [3.4 Regional vs. Global AWS Services](../README.md#34-regional-vs-global-aws-services)
 
 ### Question 5
 
@@ -179,10 +169,8 @@ A company needs single-digit millisecond latency for end users in a large metrop
 
 </details>
 
-📖 **Study:** [3.3 Edge & Hybrid Infrastructure Solutions](../README.md#33-edge--hybrid-infrastructure-solutions)
+Study: [3.3 Edge & Hybrid Infrastructure Solutions](../README.md#33-edge--hybrid-infrastructure-solutions)
 
----
-
-[⬅️ Study guide: 3. 🌐 AWS Global Infrastructure](../README.md#3--aws-global-infrastructure) · [📚 All topics](README.md) · [Next: 4. 📐 Cloud Architecture & Reliability ➡️](04-architecture-reliability.md)
+[Study guide: 3. AWS Global Infrastructure](../README.md#3--aws-global-infrastructure) · [All topics](README.md) · [Next: 4. Cloud Architecture & Reliability](04-architecture-reliability.md)
 
 *Original exam-style practice questions written for this study guide. They are not actual AWS exam questions, and this project is not affiliated with or endorsed by AWS.*

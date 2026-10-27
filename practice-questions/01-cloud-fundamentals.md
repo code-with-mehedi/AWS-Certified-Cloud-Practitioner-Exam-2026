@@ -1,11 +1,9 @@
-# 📝 Practice Questions: 1. 🚀 Introduction & Cloud Fundamentals
+# Practice questions: 1. Introduction & Cloud Fundamentals
 
-[⬅️ Study guide: 1. 🚀 Introduction & Cloud Fundamentals](../README.md#1--introduction--cloud-fundamentals) · [📚 All topics](README.md) · [Next: 2. 🛡️ Getting Started & Account Security Baseline ➡️](02-account-security-baseline.md)
+[Study guide: 1. Introduction & Cloud Fundamentals](../README.md#1--introduction--cloud-fundamentals) · [All topics](README.md) · [Next: 2. Getting Started & Account Security Baseline](02-account-security-baseline.md)
 
 > [!NOTE]
-> **How to practice:** read the question, decide on your answer, then **click an option** to reveal whether it is ✅ right or ❌ wrong, and why. ◯ means choose **one** answer. ☐ means choose **all** the answers the question asks for, so click each option you think is correct.
-
----
+> Read the question and decide on your answer, then click an option to see whether it is right or wrong and why. A round marker (◯) means pick one answer. A square marker (☐) means pick every answer the question asks for, so click each option you think is correct.
 
 ### Question 1
 
@@ -15,13 +13,13 @@ Which TWO are perspectives of the AWS Cloud Adoption Framework (AWS CAF)?
 
 <details><summary>☐ <b>A.</b> People</summary>
 
-✅ **Correct.** People is a CAF perspective. It covers workforce transformation, cloud fluency, and culture.
+✅ **Correct.** People is a CAF perspective that covers workforce transformation, cloud fluency, and culture.
 
 </details>
 
 <details><summary>☐ <b>B.</b> Reliability</summary>
 
-❌ **Incorrect.** Reliability is a pillar of the AWS Well-Architected Framework, not a CAF perspective.
+❌ **Incorrect.** Reliability is a pillar of the AWS Well-Architected Framework, so it is not a CAF perspective.
 
 </details>
 
@@ -33,7 +31,7 @@ Which TWO are perspectives of the AWS Cloud Adoption Framework (AWS CAF)?
 
 <details><summary>☐ <b>D.</b> Operations</summary>
 
-✅ **Correct.** Operations is a CAF perspective. It covers observability, incident management, and patch management.
+✅ **Correct.** The Operations perspective of the CAF covers observability, incident management, and patch management.
 
 </details>
 
@@ -43,9 +41,7 @@ Which TWO are perspectives of the AWS Cloud Adoption Framework (AWS CAF)?
 
 </details>
 
-📖 **Study:** [1.7 AWS Cloud Adoption Framework (AWS CAF)](../README.md#17-aws-cloud-adoption-framework-aws-caf)
-
----
+Study: [1.7 AWS Cloud Adoption Framework (AWS CAF)](../README.md#17-aws-cloud-adoption-framework-aws-caf)
 
 ### Question 2
 
@@ -77,9 +73,7 @@ A company keeps its customer database in its own data center and runs its web ti
 
 </details>
 
-📖 **Study:** [1.5 Cloud Deployment Models](../README.md#15-cloud-deployment-models)
-
----
+Study: [1.5 Cloud Deployment Models](../README.md#15-cloud-deployment-models)
 
 ### Question 3
 
@@ -89,13 +83,13 @@ A company stops buying servers up front and instead pays only for the compute ca
 
 <details><summary>◯ <b>A.</b> Benefit from massive economies of scale</summary>
 
-❌ **Incorrect.** This is about AWS passing on lower prices because it aggregates the usage of many customers. It does not describe how the company pays.
+❌ **Incorrect.** Economies of scale let AWS pass on lower prices because it aggregates the usage of many customers. That does not describe how the company pays.
 
 </details>
 
 <details><summary>◯ <b>B.</b> Go global in minutes</summary>
 
-❌ **Incorrect.** This is about deploying applications in several AWS Regions within minutes to reduce latency for users worldwide.
+❌ **Incorrect.** Going global means deploying applications in several AWS Regions within minutes to reduce latency for users worldwide.
 
 </details>
 
@@ -107,13 +101,11 @@ A company stops buying servers up front and instead pays only for the compute ca
 
 <details><summary>◯ <b>D.</b> Stop guessing capacity</summary>
 
-❌ **Incorrect.** This is about scaling resources up and down to match demand instead of sizing for peak load. It does not describe the payment model.
+❌ **Incorrect.** It means scaling resources up and down to match demand instead of sizing for peak load, which says nothing about the payment model.
 
 </details>
 
-📖 **Study:** [1.3 The 6 Advantages of Cloud Computing](../README.md#13-the-6-advantages-of-cloud-computing)
-
----
+Study: [1.3 The 6 Advantages of Cloud Computing](../README.md#13-the-6-advantages-of-cloud-computing)
 
 ### Question 4
 
@@ -145,9 +137,7 @@ A company wants to move its on-premises Linux servers to Amazon EC2 as quickly a
 
 </details>
 
-📖 **Study:** [1.8 Cloud Migration Strategies: The 7 Rs & Migration Tools](../README.md#18-cloud-migration-strategies-the-7-rs--migration-tools)
-
----
+Study: [1.8 Cloud Migration Strategies: The 7 Rs & Migration Tools](../README.md#18-cloud-migration-strategies-the-7-rs--migration-tools)
 
 ### Question 5
 
@@ -179,10 +169,8 @@ A development team wants to upload its application code and let AWS manage the o
 
 </details>
 
-📖 **Study:** [1.4 Types of Cloud Computing (Cloud Service Models)](../README.md#14-types-of-cloud-computing-cloud-service-models)
+Study: [1.4 Types of Cloud Computing (Cloud Service Models)](../README.md#14-types-of-cloud-computing-cloud-service-models)
 
----
-
-[⬅️ Study guide: 1. 🚀 Introduction & Cloud Fundamentals](../README.md#1--introduction--cloud-fundamentals) · [📚 All topics](README.md) · [Next: 2. 🛡️ Getting Started & Account Security Baseline ➡️](02-account-security-baseline.md)
+[Study guide: 1. Introduction & Cloud Fundamentals](../README.md#1--introduction--cloud-fundamentals) · [All topics](README.md) · [Next: 2. Getting Started & Account Security Baseline](02-account-security-baseline.md)
 
 *Original exam-style practice questions written for this study guide. They are not actual AWS exam questions, and this project is not affiliated with or endorsed by AWS.*

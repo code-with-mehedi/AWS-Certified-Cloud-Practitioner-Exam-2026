@@ -1,11 +1,9 @@
-# 📝 Practice Questions: 8. 🗄️ Storage Services
+# Practice questions: 8. Storage Services
 
-[⬅️ Study guide: 8. 🗄️ Storage Services](../README.md#8-️-storage-services) · [📚 All topics](README.md) · [Next: 9. 📊 Database & Analytics Services ➡️](09-database-analytics.md)
+[Study guide: 8. Storage Services](../README.md#8-️-storage-services) · [All topics](README.md) · [Next: 9. Database & Analytics Services](09-database-analytics.md)
 
 > [!NOTE]
-> **How to practice:** read the question, decide on your answer, then **click an option** to reveal whether it is ✅ right or ❌ wrong, and why. ◯ means choose **one** answer. ☐ means choose **all** the answers the question asks for, so click each option you think is correct.
-
----
+> Read the question and decide on your answer, then click an option to see whether it is right or wrong and why. A round marker (◯) means pick one answer. A square marker (☐) means pick every answer the question asks for, so click each option you think is correct.
 
 ### Question 1
 
@@ -21,13 +19,13 @@ Which AWS storage option provides persistent block storage for Amazon EC2 instan
 
 <details><summary>◯ <b>B.</b> Amazon EFS</summary>
 
-❌ **Incorrect.** EFS is a shared file system that spans multiple AZs. It is not block storage.
+❌ **Incorrect.** EFS is a shared file system that spans multiple AZs, so it is not block storage.
 
 </details>
 
 <details><summary>◯ <b>C.</b> Amazon S3</summary>
 
-❌ **Incorrect.** S3 is regional object storage, not block storage.
+❌ **Incorrect.** S3 is regional object storage and does not provide block storage.
 
 </details>
 
@@ -37,9 +35,7 @@ Which AWS storage option provides persistent block storage for Amazon EC2 instan
 
 </details>
 
-📖 **Study:** [8.3 Amazon EBS vs. EC2 Instance Store](../README.md#83-amazon-ebs-vs-ec2-instance-store)
-
----
+Study: [8.3 Amazon EBS vs. EC2 Instance Store](../README.md#83-amazon-ebs-vs-ec2-instance-store)
 
 ### Question 2
 
@@ -71,9 +67,7 @@ A company stores data with unknown or changing access patterns and wants storage
 
 </details>
 
-📖 **Study:** [8.2 Amazon S3 Storage Classes & Lifecycle Management](../README.md#82-amazon-s3-storage-classes--lifecycle-management)
-
----
+Study: [8.2 Amazon S3 Storage Classes & Lifecycle Management](../README.md#82-amazon-s3-storage-classes--lifecycle-management)
 
 ### Question 3
 
@@ -95,7 +89,7 @@ A company must keep compliance records for 10 years at the lowest possible stora
 
 <details><summary>◯ <b>C.</b> S3 Intelligent-Tiering</summary>
 
-❌ **Incorrect.** Intelligent-Tiering suits unknown or changing access patterns. It is not the cheapest option for a known long-term archive.
+❌ **Incorrect.** Intelligent-Tiering suits unknown or changing access patterns, but it is not the cheapest option for a known long-term archive.
 
 </details>
 
@@ -105,9 +99,7 @@ A company must keep compliance records for 10 years at the lowest possible stora
 
 </details>
 
-📖 **Study:** [8.2 Amazon S3 Storage Classes & Lifecycle Management](../README.md#82-amazon-s3-storage-classes--lifecycle-management)
-
----
+Study: [8.2 Amazon S3 Storage Classes & Lifecycle Management](../README.md#82-amazon-s3-storage-classes--lifecycle-management)
 
 ### Question 4
 
@@ -117,13 +109,13 @@ Which TWO Amazon S3 features help protect objects from being accidentally delete
 
 <details><summary>☐ <b>A.</b> S3 Transfer Acceleration</summary>
 
-❌ **Incorrect.** This speeds up long-distance uploads through CloudFront edge locations. It does not protect objects.
+❌ **Incorrect.** This speeds up long-distance uploads through CloudFront edge locations and gives objects no protection.
 
 </details>
 
 <details><summary>☐ <b>B.</b> S3 Intelligent-Tiering</summary>
 
-❌ **Incorrect.** This is a storage class that optimizes cost. It does not protect against deletion.
+❌ **Incorrect.** This storage class optimizes cost, and objects in it can still be deleted.
 
 </details>
 
@@ -135,19 +127,17 @@ Which TWO Amazon S3 features help protect objects from being accidentally delete
 
 <details><summary>☐ <b>D.</b> S3 Event Notifications</summary>
 
-❌ **Incorrect.** This sends a notification when events occur in a bucket. It does not prevent deletion or overwriting.
+❌ **Incorrect.** This sends a notification when events occur in a bucket, but it cannot stop a deletion or an overwrite.
 
 </details>
 
 <details><summary>☐ <b>E.</b> S3 Object Lock</summary>
 
-✅ **Correct.** Object Lock enforces a write-once-read-many (WORM) model, preventing an object version from being deleted or overwritten during a retention period or while a legal hold is in place.
+✅ **Correct.** Object Lock enforces a write-once-read-many (WORM) model, so an object version cannot be deleted or overwritten during a retention period or while a legal hold is in place.
 
 </details>
 
-📖 **Study:** [8.2 Amazon S3 Storage Classes & Lifecycle Management](../README.md#82-amazon-s3-storage-classes--lifecycle-management)
-
----
+Study: [8.2 Amazon S3 Storage Classes & Lifecycle Management](../README.md#82-amazon-s3-storage-classes--lifecycle-management)
 
 ### Question 5
 
@@ -157,7 +147,7 @@ A company needs a shared file system that hundreds of Linux EC2 instances in mul
 
 <details><summary>◯ <b>A.</b> Amazon EBS</summary>
 
-❌ **Incorrect.** An EBS volume is block storage in a single AZ that is normally attached to one instance. It is not a shared NFS file system.
+❌ **Incorrect.** An EBS volume is block storage in a single AZ that is normally attached to one instance, and it is not a shared NFS file system.
 
 </details>
 
@@ -169,7 +159,7 @@ A company needs a shared file system that hundreds of Linux EC2 instances in mul
 
 <details><summary>◯ <b>C.</b> Amazon FSx for Windows File Server</summary>
 
-❌ **Incorrect.** It provides SMB file shares for Windows workloads, not NFS for Linux.
+❌ **Incorrect.** It provides SMB file shares for Windows workloads, so it cannot give Linux instances an NFS share.
 
 </details>
 
@@ -179,10 +169,8 @@ A company needs a shared file system that hundreds of Linux EC2 instances in mul
 
 </details>
 
-📖 **Study:** [8.4 Amazon EFS vs. Amazon FSx](../README.md#84-amazon-efs-vs-amazon-fsx)
+Study: [8.4 Amazon EFS vs. Amazon FSx](../README.md#84-amazon-efs-vs-amazon-fsx)
 
----
-
-[⬅️ Study guide: 8. 🗄️ Storage Services](../README.md#8-️-storage-services) · [📚 All topics](README.md) · [Next: 9. 📊 Database & Analytics Services ➡️](09-database-analytics.md)
+[Study guide: 8. Storage Services](../README.md#8-️-storage-services) · [All topics](README.md) · [Next: 9. Database & Analytics Services](09-database-analytics.md)
 
 *Original exam-style practice questions written for this study guide. They are not actual AWS exam questions, and this project is not affiliated with or endorsed by AWS.*

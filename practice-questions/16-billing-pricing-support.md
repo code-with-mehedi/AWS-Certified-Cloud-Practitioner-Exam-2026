@@ -1,14 +1,12 @@
-# 📝 Practice Questions: 16. 💰 Billing, Pricing & Support Plans
+# Practice questions: 16. Billing, Pricing & Support Plans
 
-[⬅️ Study guide: 16. 💰 Billing, Pricing & Support Plans](../README.md#16--billing-pricing--support-plans) · [📚 All topics](README.md) · [Next: 17. 🆚 High-Yield Exam "Cheat Sheet" & Service Disambiguation ➡️](17-service-disambiguation.md)
-
-> [!NOTE]
-> **How to practice:** read the question, decide on your answer, then **click an option** to reveal whether it is ✅ right or ❌ wrong, and why. ◯ means choose **one** answer. ☐ means choose **all** the answers the question asks for, so click each option you think is correct.
+[Study guide: 16. Billing, Pricing & Support Plans](../README.md#16--billing-pricing--support-plans) · [All topics](README.md) · [Next: 17. High-Yield Exam "Cheat Sheet" & Service Disambiguation](17-service-disambiguation.md)
 
 > [!NOTE]
-> **Heads-up on AWS Support plan names:** AWS now offers Basic, Business Support+, Enterprise Support, and Unified Operations. The classic Developer, Business, and Enterprise On-Ramp plans, which the rest of this guide uses, are being discontinued on January 1, 2027. The support plan question below uses the classic Business plan and mentions its newer equivalent. See [AWS Support plans](https://docs.aws.amazon.com/awssupport/latest/user/aws-support-plans.html).
+> Read the question and decide on your answer, then click an option to see whether it is right or wrong and why. A round marker (◯) means pick one answer. A square marker (☐) means pick every answer the question asks for, so click each option you think is correct.
 
----
+> [!NOTE]
+> The current CLF-C02 exam guide lists these support options: Basic Support, AWS Business Support+, AWS Enterprise Support, and AWS Unified Operations. AWS discontinues the older Developer Support, Business Support, and Enterprise On-Ramp plans on January 1, 2027. See [AWS Support plans](https://docs.aws.amazon.com/awssupport/latest/user/aws-support-plans.html).
 
 ### Question 1
 
@@ -16,33 +14,31 @@ Which AWS Support plan is the lowest-cost option that provides 24/7 access to Cl
 
 *◯ Choose ONE.*
 
-<details><summary>◯ <b>A.</b> Developer Support</summary>
+<details><summary>◯ <b>A.</b> AWS Unified Operations</summary>
 
-❌ **Incorrect.** Developer provides business-hours access to Cloud Support Associates only.
+❌ **Incorrect.** Unified Operations is a premium plan built around a designated TAM and a Domain Specialist Engineer, so it is not the lowest-cost option.
 
 </details>
 
-<details><summary>◯ <b>B.</b> Business Support</summary>
+<details><summary>◯ <b>B.</b> Business Support+</summary>
 
-✅ **Correct.** The Business tier is the first with 24/7 access to Cloud Support Engineers. New customers now get this tier as Business Support+.
+✅ **Correct.** Business Support+ is the lowest-cost plan with 24/7 phone, web, and chat access to Cloud Support Engineers.
 
 </details>
 
 <details><summary>◯ <b>C.</b> Basic Support</summary>
 
-❌ **Incorrect.** Basic is free but covers only account and billing questions, with no technical support.
+❌ **Incorrect.** Basic is free but covers only account and billing questions and service quota increases, with no technical support.
 
 </details>
 
 <details><summary>◯ <b>D.</b> Enterprise Support</summary>
 
-❌ **Incorrect.** Enterprise also includes 24/7 access, but it costs more than the Business tier.
+❌ **Incorrect.** Enterprise also includes 24/7 access and adds a designated TAM, but it costs more than Business Support+.
 
 </details>
 
-📖 **Study:** [16.3 AWS Support Plans Comparison (Detailed Matrix)](../README.md#163-aws-support-plans-comparison-detailed-matrix)
-
----
+Study: [16.3 AWS Support Plans Comparison (Detailed Matrix)](../README.md#163-aws-support-plans-comparison-detailed-matrix)
 
 ### Question 2
 
@@ -58,25 +54,23 @@ A company wants to categorize and track its AWS costs by department and project 
 
 <details><summary>◯ <b>B.</b> AWS Pricing Calculator</summary>
 
-❌ **Incorrect.** The Pricing Calculator estimates the cost of planned workloads. It does not categorize actual spend.
+❌ **Incorrect.** The Pricing Calculator estimates the cost of planned workloads, so it cannot categorize actual spend.
 
 </details>
 
 <details><summary>◯ <b>C.</b> Amazon CloudWatch</summary>
 
-❌ **Incorrect.** CloudWatch monitors performance and logs. It does not categorize costs.
+❌ **Incorrect.** CloudWatch monitors performance and logs. Categorizing costs is outside its scope.
 
 </details>
 
 <details><summary>◯ <b>D.</b> AWS Trusted Advisor</summary>
 
-❌ **Incorrect.** Trusted Advisor recommends savings opportunities and best practices. It does not categorize costs by project.
+❌ **Incorrect.** Trusted Advisor recommends savings opportunities and best practices, but it does not categorize costs by project.
 
 </details>
 
-📖 **Study:** [16.2 Cost Tools: Pricing Calculator vs. Cost Explorer vs. Budgets vs. CUR](../README.md#162-cost-tools-pricing-calculator-vs-cost-explorer-vs-budgets-vs-cur)
-
----
+Study: [16.2 Cost Tools: Pricing Calculator vs. Cost Explorer vs. Budgets vs. CUR](../README.md#162-cost-tools-pricing-calculator-vs-cost-explorer-vs-budgets-vs-cur)
 
 ### Question 3
 
@@ -98,7 +92,7 @@ A company wants to estimate the monthly cost of a planned architecture before it
 
 <details><summary>◯ <b>C.</b> AWS Budgets</summary>
 
-❌ **Incorrect.** Budgets alerts you when actual or forecasted spend crosses a threshold. It does not model a new architecture.
+❌ **Incorrect.** Budgets alerts you when actual or forecasted spend crosses a threshold but does not model a new architecture.
 
 </details>
 
@@ -108,9 +102,7 @@ A company wants to estimate the monthly cost of a planned architecture before it
 
 </details>
 
-📖 **Study:** [16.2 Cost Tools: Pricing Calculator vs. Cost Explorer vs. Budgets vs. CUR](../README.md#162-cost-tools-pricing-calculator-vs-cost-explorer-vs-budgets-vs-cur)
-
----
+Study: [16.2 Cost Tools: Pricing Calculator vs. Cost Explorer vs. Budgets vs. CUR](../README.md#162-cost-tools-pricing-calculator-vs-cost-explorer-vs-budgets-vs-cur)
 
 ### Question 4
 
@@ -120,7 +112,7 @@ A company needs an expert firm to help design, migrate, and manage its workloads
 
 <details><summary>◯ <b>A.</b> A Software Path (technology) Partner</summary>
 
-❌ **Incorrect.** Software partners sell commercial software that runs on or integrates with AWS. They are not consulting firms.
+❌ **Incorrect.** Software partners sell commercial software that runs on or integrates with AWS, and they are not consulting firms.
 
 </details>
 
@@ -132,7 +124,7 @@ A company needs an expert firm to help design, migrate, and manage its workloads
 
 <details><summary>◯ <b>C.</b> AWS Marketplace</summary>
 
-❌ **Incorrect.** Marketplace is a digital catalog of third-party software, data, and services. It is not a type of partner.
+❌ **Incorrect.** Marketplace is a digital catalog of third-party software, data, and services, so it is not a type of partner.
 
 </details>
 
@@ -142,9 +134,7 @@ A company needs an expert firm to help design, migrate, and manage its workloads
 
 </details>
 
-📖 **Study:** [16.5 Partner Network (APN), Marketplace & Startup Programs](../README.md#165-partner-network-apn-marketplace--startup-programs)
-
----
+Study: [16.5 Partner Network (APN), Marketplace & Startup Programs](../README.md#165-partner-network-apn-marketplace--startup-programs)
 
 ### Question 5
 
@@ -182,10 +172,8 @@ Which TWO of the following are generally free of charge in AWS?
 
 </details>
 
-📖 **Study:** [16.1 Cloud Economics: CapEx vs. OpEx & What is FREE in AWS](../README.md#161-cloud-economics-capex-vs-opex--what-is-free-in-aws)
+Study: [16.1 Cloud Economics: CapEx vs. OpEx & What is FREE in AWS](../README.md#161-cloud-economics-capex-vs-opex--what-is-free-in-aws)
 
----
-
-[⬅️ Study guide: 16. 💰 Billing, Pricing & Support Plans](../README.md#16--billing-pricing--support-plans) · [📚 All topics](README.md) · [Next: 17. 🆚 High-Yield Exam "Cheat Sheet" & Service Disambiguation ➡️](17-service-disambiguation.md)
+[Study guide: 16. Billing, Pricing & Support Plans](../README.md#16--billing-pricing--support-plans) · [All topics](README.md) · [Next: 17. High-Yield Exam "Cheat Sheet" & Service Disambiguation](17-service-disambiguation.md)
 
 *Original exam-style practice questions written for this study guide. They are not actual AWS exam questions, and this project is not affiliated with or endorsed by AWS.*

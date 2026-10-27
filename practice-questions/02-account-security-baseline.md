@@ -1,11 +1,9 @@
-# 📝 Practice Questions: 2. 🛡️ Getting Started & Account Security Baseline
+# Practice questions: 2. Getting Started & Account Security Baseline
 
-[⬅️ Study guide: 2. 🛡️ Getting Started & Account Security Baseline](../README.md#2-️-getting-started--account-security-baseline) · [📚 All topics](README.md) · [Next: 3. 🌐 AWS Global Infrastructure ➡️](03-global-infrastructure.md)
+[Study guide: 2. Getting Started & Account Security Baseline](../README.md#2-️-getting-started--account-security-baseline) · [All topics](README.md) · [Next: 3. AWS Global Infrastructure](03-global-infrastructure.md)
 
 > [!NOTE]
-> **How to practice:** read the question, decide on your answer, then **click an option** to reveal whether it is ✅ right or ❌ wrong, and why. ◯ means choose **one** answer. ☐ means choose **all** the answers the question asks for, so click each option you think is correct.
-
----
+> Read the question and decide on your answer, then click an option to see whether it is right or wrong and why. A round marker (◯) means pick one answer. A square marker (☐) means pick every answer the question asks for, so click each option you think is correct.
 
 ### Question 1
 
@@ -37,9 +35,7 @@ A finance team wants an email alert when the company's actual or forecasted mont
 
 </details>
 
-📖 **Study:** [2.3 Budgets & Zero-Spend Billing Alarms](../README.md#23-budgets--zero-spend-billing-alarms)
-
----
+Study: [2.3 Budgets & Zero-Spend Billing Alarms](../README.md#23-budgets--zero-spend-billing-alarms)
 
 ### Question 2
 
@@ -71,9 +67,7 @@ A company wants a zero-spend safeguard for a new learning account: an Amazon Clo
 
 </details>
 
-📖 **Study:** [2.3 Budgets & Zero-Spend Billing Alarms](../README.md#23-budgets--zero-spend-billing-alarms)
-
----
+Study: [2.3 Budgets & Zero-Spend Billing Alarms](../README.md#23-budgets--zero-spend-billing-alarms)
 
 ### Question 3
 
@@ -105,9 +99,7 @@ A startup uses AWS Lambda and stays within the 1 million free requests per month
 
 </details>
 
-📖 **Study:** [2.2 AWS Free Tier Types](../README.md#22-aws-free-tier-types)
-
----
+Study: [2.2 AWS Free Tier Types](../README.md#22-aws-free-tier-types)
 
 ### Question 4
 
@@ -139,9 +131,7 @@ In a standalone AWS account (one that is not part of AWS Organizations), which o
 
 </details>
 
-📖 **Study:** [2.1 AWS Account Creation & Root User Rules](../README.md#21-aws-account-creation--root-user-rules)
-
----
+Study: [2.1 AWS Account Creation & Root User Rules](../README.md#21-aws-account-creation--root-user-rules)
 
 ### Question 5
 
@@ -163,7 +153,7 @@ Which TWO actions follow security best practices for the AWS account root user?
 
 <details><summary>☐ <b>C.</b> Enable multi-factor authentication (MFA) on the root user</summary>
 
-✅ **Correct.** MFA adds a second factor to protect the most powerful identity in the account.
+✅ **Correct.** MFA adds a second factor to protect the most privileged identity in the account.
 
 </details>
 
@@ -179,10 +169,8 @@ Which TWO actions follow security best practices for the AWS account root user?
 
 </details>
 
-📖 **Study:** [2.1 AWS Account Creation & Root User Rules](../README.md#21-aws-account-creation--root-user-rules)
+Study: [2.1 AWS Account Creation & Root User Rules](../README.md#21-aws-account-creation--root-user-rules)
 
----
-
-[⬅️ Study guide: 2. 🛡️ Getting Started & Account Security Baseline](../README.md#2-️-getting-started--account-security-baseline) · [📚 All topics](README.md) · [Next: 3. 🌐 AWS Global Infrastructure ➡️](03-global-infrastructure.md)
+[Study guide: 2. Getting Started & Account Security Baseline](../README.md#2-️-getting-started--account-security-baseline) · [All topics](README.md) · [Next: 3. AWS Global Infrastructure](03-global-infrastructure.md)
 
 *Original exam-style practice questions written for this study guide. They are not actual AWS exam questions, and this project is not affiliated with or endorsed by AWS.*

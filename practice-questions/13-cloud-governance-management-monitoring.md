@@ -1,11 +1,9 @@
-# 📝 Practice Questions: 13. 📋 Cloud Governance, Management & Monitoring
+# Practice questions: 13. Cloud Governance, Management & Monitoring
 
-[⬅️ Study guide: 13. 📋 Cloud Governance, Management & Monitoring](../README.md#13--cloud-governance-management--monitoring) · [📚 All topics](README.md) · [Next: 14. 🤖 Machine Learning, AI & High-Performance Compute ➡️](14-ml-ai-hpc.md)
+[Study guide: 13. Cloud Governance, Management & Monitoring](../README.md#13--cloud-governance-management--monitoring) · [All topics](README.md) · [Next: 14. Machine Learning, AI & High-Performance Compute](14-ml-ai-hpc.md)
 
 > [!NOTE]
-> **How to practice:** read the question, decide on your answer, then **click an option** to reveal whether it is ✅ right or ❌ wrong, and why. ◯ means choose **one** answer. ☐ means choose **all** the answers the question asks for, so click each option you think is correct.
-
----
+> Read the question and decide on your answer, then click an option to see whether it is right or wrong and why. A round marker (◯) means pick one answer. A square marker (☐) means pick every answer the question asks for, so click each option you think is correct.
 
 ### Question 1
 
@@ -15,7 +13,7 @@ A security team needs to find out who deleted an Amazon S3 bucket, when it happe
 
 <details><summary>◯ <b>A.</b> Amazon CloudWatch</summary>
 
-❌ **Incorrect.** CloudWatch collects metrics, logs, and alarms about performance. It is not an audit trail of API calls.
+❌ **Incorrect.** CloudWatch collects metrics, logs, and alarms about performance and does not provide an audit trail of API calls.
 
 </details>
 
@@ -33,13 +31,11 @@ A security team needs to find out who deleted an Amazon S3 bucket, when it happe
 
 <details><summary>◯ <b>D.</b> AWS Trusted Advisor</summary>
 
-❌ **Incorrect.** Trusted Advisor gives best-practice recommendations. It does not audit API activity.
+❌ **Incorrect.** Trusted Advisor gives best-practice recommendations. Auditing API activity is outside its scope.
 
 </details>
 
-📖 **Study:** [13.3 Observability: Amazon CloudWatch vs. AWS CloudTrail](../README.md#133-observability-amazon-cloudwatch-vs-aws-cloudtrail)
-
----
+Study: [13.3 Observability: Amazon CloudWatch vs. AWS CloudTrail](../README.md#133-observability-amazon-cloudwatch-vs-aws-cloudtrail)
 
 ### Question 2
 
@@ -61,7 +57,7 @@ A company wants to set up a new multi-account AWS environment that follows best 
 
 <details><summary>◯ <b>C.</b> AWS Config</summary>
 
-❌ **Incorrect.** Config records resource configuration changes and checks compliance. It does not set up an account structure.
+❌ **Incorrect.** Config records resource configuration changes and checks compliance. Setting up an account structure is not part of its job.
 
 </details>
 
@@ -71,9 +67,7 @@ A company wants to set up a new multi-account AWS environment that follows best 
 
 </details>
 
-📖 **Study:** [13.2 AWS Config vs. AWS Control Tower](../README.md#132-aws-config-vs-aws-control-tower)
-
----
+Study: [13.2 AWS Config vs. AWS Control Tower](../README.md#132-aws-config-vs-aws-control-tower)
 
 ### Question 3
 
@@ -83,7 +77,7 @@ Which statement about Service Control Policies (SCPs) in AWS Organizations is co
 
 <details><summary>◯ <b>A.</b> SCPs set the maximum permissions available in member accounts, even for the root user of those accounts</summary>
 
-✅ **Correct.** An SCP deny cannot be bypassed by a member account's root user. SCPs never grant permissions, they only restrict them.
+✅ **Correct.** Even a member account's root user cannot bypass an SCP deny. SCPs restrict permissions and never grant them.
 
 </details>
 
@@ -101,13 +95,11 @@ Which statement about Service Control Policies (SCPs) in AWS Organizations is co
 
 <details><summary>◯ <b>D.</b> SCPs apply only to the Organizations management account</summary>
 
-❌ **Incorrect.** SCPs apply to member accounts. They do not restrict the management account.
+❌ **Incorrect.** SCPs apply to member accounts and have no effect on the management account.
 
 </details>
 
-📖 **Study:** [13.1 AWS Organizations & Service Control Policies (SCPs)](../README.md#131-aws-organizations--service-control-policies-scps)
-
----
+Study: [13.1 AWS Organizations & Service Control Policies (SCPs)](../README.md#131-aws-organizations--service-control-policies-scps)
 
 ### Question 4
 
@@ -117,19 +109,19 @@ A company wants to continuously check whether its Amazon S3 buckets and Amazon E
 
 <details><summary>◯ <b>A.</b> Amazon Inspector</summary>
 
-❌ **Incorrect.** Inspector scans for software vulnerabilities and network exposure. It does not track configuration compliance over time.
+❌ **Incorrect.** Inspector scans for software vulnerabilities and network exposure, but it does not track configuration compliance over time.
 
 </details>
 
 <details><summary>◯ <b>B.</b> AWS CloudTrail</summary>
 
-❌ **Incorrect.** CloudTrail records API calls. It does not evaluate resource configuration against rules.
+❌ **Incorrect.** CloudTrail records API calls. Evaluating resource configuration against rules is a different job.
 
 </details>
 
 <details><summary>◯ <b>C.</b> Amazon GuardDuty</summary>
 
-❌ **Incorrect.** GuardDuty detects threats. It does not check configuration compliance.
+❌ **Incorrect.** GuardDuty detects threats and does not check configuration compliance.
 
 </details>
 
@@ -139,9 +131,7 @@ A company wants to continuously check whether its Amazon S3 buckets and Amazon E
 
 </details>
 
-📖 **Study:** [13.2 AWS Config vs. AWS Control Tower](../README.md#132-aws-config-vs-aws-control-tower)
-
----
+Study: [13.2 AWS Config vs. AWS Control Tower](../README.md#132-aws-config-vs-aws-control-tower)
 
 ### Question 5
 
@@ -163,7 +153,7 @@ Which TWO tasks can Amazon CloudWatch perform?
 
 <details><summary>☐ <b>C.</b> Collect and track performance metrics such as EC2 CPU utilization</summary>
 
-✅ **Correct.** Metrics are the core of CloudWatch monitoring.
+✅ **Correct.** CloudWatch monitoring is built on metrics.
 
 </details>
 
@@ -179,10 +169,8 @@ Which TWO tasks can Amazon CloudWatch perform?
 
 </details>
 
-📖 **Study:** [13.3 Observability: Amazon CloudWatch vs. AWS CloudTrail](../README.md#133-observability-amazon-cloudwatch-vs-aws-cloudtrail)
+Study: [13.3 Observability: Amazon CloudWatch vs. AWS CloudTrail](../README.md#133-observability-amazon-cloudwatch-vs-aws-cloudtrail)
 
----
-
-[⬅️ Study guide: 13. 📋 Cloud Governance, Management & Monitoring](../README.md#13--cloud-governance-management--monitoring) · [📚 All topics](README.md) · [Next: 14. 🤖 Machine Learning, AI & High-Performance Compute ➡️](14-ml-ai-hpc.md)
+[Study guide: 13. Cloud Governance, Management & Monitoring](../README.md#13--cloud-governance-management--monitoring) · [All topics](README.md) · [Next: 14. Machine Learning, AI & High-Performance Compute](14-ml-ai-hpc.md)
 
 *Original exam-style practice questions written for this study guide. They are not actual AWS exam questions, and this project is not affiliated with or endorsed by AWS.*
