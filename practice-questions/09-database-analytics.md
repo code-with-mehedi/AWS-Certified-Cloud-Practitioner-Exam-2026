@@ -1,11 +1,9 @@
-# 📝 Practice Questions: 9. 📊 Database & Analytics Services
+# Practice questions: 9. Database & Analytics Services
 
-[⬅️ Study guide: 9. 📊 Database & Analytics Services](../README.md#9--database--analytics-services) · [📚 All topics](README.md) · [Next: 10. 🔌 Networking & Content Delivery ➡️](10-networking-content-delivery.md)
+[Study guide: 9. Database & Analytics Services](../README.md#9--database--analytics-services) · [All topics](README.md) · [Next: 10. Networking & Content Delivery](10-networking-content-delivery.md)
 
 > [!NOTE]
-> **How to practice:** read the question, decide on your answer, then **click an option** to reveal whether it is ✅ right or ❌ wrong, and why. ◯ means choose **one** answer. ☐ means choose **all** the answers the question asks for, so click each option you think is correct.
-
----
+> Read the question and decide on your answer, then click an option to see whether it is right or wrong and why. A round marker (◯) means pick one answer. A square marker (☐) means pick every answer the question asks for, so click each option you think is correct.
 
 ### Question 1
 
@@ -37,9 +35,7 @@ A mobile application needs a fully managed, schemaless NoSQL database that deliv
 
 </details>
 
-📖 **Study:** [9.3 NoSQL: Amazon DynamoDB (Schemaless, Global Tables, DAX)](../README.md#93-nosql-amazon-dynamodb-schemaless-global-tables-dax)
-
----
+Study: [9.3 NoSQL: Amazon DynamoDB (Schemaless, Global Tables, DAX)](../README.md#93-nosql-amazon-dynamodb-schemaless-global-tables-dax)
 
 ### Question 2
 
@@ -61,7 +57,7 @@ A company wants to run ad hoc standard SQL queries directly on data stored in Am
 
 <details><summary>◯ <b>C.</b> AWS Glue</summary>
 
-❌ **Incorrect.** Glue is a serverless ETL and data catalog service. It prepares data, but it is not the SQL query engine.
+❌ **Incorrect.** Glue is a serverless ETL and data catalog service that prepares data but is not the SQL query engine.
 
 </details>
 
@@ -71,9 +67,7 @@ A company wants to run ad hoc standard SQL queries directly on data stored in Am
 
 </details>
 
-📖 **Study:** [9.5 Analytics & Big Data: Redshift, Athena, Glue, EMR, QuickSight](../README.md#95-analytics--big-data-redshift-athena-glue-emr-quicksight)
-
----
+Study: [9.5 Analytics & Big Data: Redshift, Athena, Glue, EMR, QuickSight](../README.md#95-analytics--big-data-redshift-athena-glue-emr-quicksight)
 
 ### Question 3
 
@@ -83,7 +77,7 @@ Which Amazon RDS feature provides high availability by synchronously replicating
 
 <details><summary>◯ <b>A.</b> Read replicas</summary>
 
-❌ **Incorrect.** Read replicas use asynchronous replication to scale read-heavy workloads. They are not the high-availability mechanism.
+❌ **Incorrect.** Read replicas use asynchronous replication to scale read-heavy workloads, so they are not the high-availability mechanism.
 
 </details>
 
@@ -95,19 +89,17 @@ Which Amazon RDS feature provides high availability by synchronously replicating
 
 <details><summary>◯ <b>C.</b> Amazon ElastiCache</summary>
 
-❌ **Incorrect.** ElastiCache caches data in memory. It is not an RDS feature.
+❌ **Incorrect.** ElastiCache caches data in memory and is not an RDS feature.
 
 </details>
 
 <details><summary>◯ <b>D.</b> Multi-AZ deployment</summary>
 
-✅ **Correct.** In a Multi-AZ DB instance deployment, the standby is kept in sync and takes over automatically during a failure. It does not serve read traffic.
+✅ **Correct.** In a Multi-AZ DB instance deployment, the standby stays in sync and takes over automatically during a failure. It does not serve read traffic.
 
 </details>
 
-📖 **Study:** [9.2 Relational: Amazon RDS & Amazon Aurora (Multi-AZ vs. Read Replicas)](../README.md#92-relational-amazon-rds--amazon-aurora-multi-az-vs-read-replicas)
-
----
+Study: [9.2 Relational: Amazon RDS & Amazon Aurora (Multi-AZ vs. Read Replicas)](../README.md#92-relational-amazon-rds--amazon-aurora-multi-az-vs-read-replicas)
 
 ### Question 4
 
@@ -145,9 +137,7 @@ Which TWO statements about Amazon Aurora are correct?
 
 </details>
 
-📖 **Study:** [9.2 Relational: Amazon RDS & Amazon Aurora (Multi-AZ vs. Read Replicas)](../README.md#92-relational-amazon-rds--amazon-aurora-multi-az-vs-read-replicas)
-
----
+Study: [9.2 Relational: Amazon RDS & Amazon Aurora (Multi-AZ vs. Read Replicas)](../README.md#92-relational-amazon-rds--amazon-aurora-multi-az-vs-read-replicas)
 
 ### Question 5
 
@@ -157,13 +147,13 @@ A company wants a caching layer in front of its relational database to deliver s
 
 <details><summary>◯ <b>A.</b> Amazon DynamoDB Accelerator (DAX)</summary>
 
-❌ **Incorrect.** DAX is an in-memory cache built specifically for DynamoDB tables, not for relational databases.
+❌ **Incorrect.** DAX is an in-memory cache built specifically for DynamoDB tables, so it cannot sit in front of a relational database.
 
 </details>
 
 <details><summary>◯ <b>B.</b> Amazon Redshift</summary>
 
-❌ **Incorrect.** Redshift is a data warehouse, not a cache.
+❌ **Incorrect.** Redshift is a data warehouse, which makes it the wrong tool for caching.
 
 </details>
 
@@ -175,14 +165,12 @@ A company wants a caching layer in front of its relational database to deliver s
 
 <details><summary>◯ <b>D.</b> Amazon Neptune</summary>
 
-❌ **Incorrect.** Neptune is a graph database, not a cache.
+❌ **Incorrect.** Neptune is a graph database and has no caching role.
 
 </details>
 
-📖 **Study:** [9.4 In-Memory Caching: Amazon ElastiCache & MemoryDB](../README.md#94-in-memory-caching-amazon-elasticache--memorydb)
+Study: [9.4 In-Memory Caching: Amazon ElastiCache & MemoryDB](../README.md#94-in-memory-caching-amazon-elasticache--memorydb)
 
----
-
-[⬅️ Study guide: 9. 📊 Database & Analytics Services](../README.md#9--database--analytics-services) · [📚 All topics](README.md) · [Next: 10. 🔌 Networking & Content Delivery ➡️](10-networking-content-delivery.md)
+[Study guide: 9. Database & Analytics Services](../README.md#9--database--analytics-services) · [All topics](README.md) · [Next: 10. Networking & Content Delivery](10-networking-content-delivery.md)
 
 *Original exam-style practice questions written for this study guide. They are not actual AWS exam questions, and this project is not affiliated with or endorsed by AWS.*

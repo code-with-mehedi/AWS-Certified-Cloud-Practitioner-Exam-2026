@@ -1,11 +1,9 @@
-# 📝 Practice Questions: 5. 🧰 Management, Governance & Developer Tools
+# Practice questions: 5. Management, Governance & Developer Tools
 
-[⬅️ Study guide: 5. 🧰 Management, Governance & Developer Tools](../README.md#5--management-governance--developer-tools) · [📚 All topics](README.md) · [Next: 6. 🤝 AWS Shared Responsibility Model ➡️](06-shared-responsibility-model.md)
+[Study guide: 5. Management, Governance & Developer Tools](../README.md#5--management-governance--developer-tools) · [All topics](README.md) · [Next: 6. AWS Shared Responsibility Model](06-shared-responsibility-model.md)
 
 > [!NOTE]
-> **How to practice:** read the question, decide on your answer, then **click an option** to reveal whether it is ✅ right or ❌ wrong, and why. ◯ means choose **one** answer. ☐ means choose **all** the answers the question asks for, so click each option you think is correct.
-
----
+> Read the question and decide on your answer, then click an option to see whether it is right or wrong and why. A round marker (◯) means pick one answer. A square marker (☐) means pick every answer the question asks for, so click each option you think is correct.
 
 ### Question 1
 
@@ -15,7 +13,7 @@ A company needs to deploy the same AWS CloudFormation template to 40 AWS account
 
 <details><summary>◯ <b>A.</b> AWS Systems Manager</summary>
 
-❌ **Incorrect.** Systems Manager manages and patches nodes. It does not provision infrastructure from templates.
+❌ **Incorrect.** Systems Manager manages and patches nodes but does not provision infrastructure from templates.
 
 </details>
 
@@ -37,9 +35,7 @@ A company needs to deploy the same AWS CloudFormation template to 40 AWS account
 
 </details>
 
-📖 **Study:** [5.3 Infrastructure as Code (IaC): CloudFormation & StackSets & CDK](../README.md#53-infrastructure-as-code-iac-cloudformation--stacksets--cdk)
-
----
+Study: [5.3 Infrastructure as Code (IaC): CloudFormation & StackSets & CDK](../README.md#53-infrastructure-as-code-iac-cloudformation--stacksets--cdk)
 
 ### Question 2
 
@@ -61,19 +57,17 @@ Which access method typically authenticates requests with an access key ID and a
 
 <details><summary>◯ <b>C.</b> Opening AWS CloudShell from the console</summary>
 
-❌ **Incorrect.** CloudShell reuses your console sign-in credentials, so no access keys are needed.
+❌ **Incorrect.** CloudShell reuses your console sign-in credentials and needs no access keys.
 
 </details>
 
 <details><summary>◯ <b>D.</b> Signing in to the console through IAM Identity Center</summary>
 
-❌ **Incorrect.** Identity Center uses single sign-on with temporary credentials rather than long-term access keys.
+❌ **Incorrect.** Identity Center uses single sign-on with temporary credentials, so long-term access keys are not involved.
 
 </details>
 
-📖 **Study:** [5.4 Developer Tools & Access Credentials](../README.md#54-developer-tools--access-credentials)
-
----
+Study: [5.4 Developer Tools & Access Credentials](../README.md#54-developer-tools--access-credentials)
 
 ### Question 3
 
@@ -89,7 +83,7 @@ Which AWS service lets an administrator patch operating systems and run commands
 
 <details><summary>◯ <b>B.</b> AWS CodeDeploy</summary>
 
-❌ **Incorrect.** CodeDeploy deploys application code. It is not a general fleet patching and command tool.
+❌ **Incorrect.** CodeDeploy deploys application code and is not a general fleet patching and command tool.
 
 </details>
 
@@ -105,9 +99,7 @@ Which AWS service lets an administrator patch operating systems and run commands
 
 </details>
 
-📖 **Study:** [5.5 AWS Systems Manager (SSM)](../README.md#55-aws-systems-manager-ssm)
-
----
+Study: [5.5 AWS Systems Manager (SSM)](../README.md#55-aws-systems-manager-ssm)
 
 ### Question 4
 
@@ -123,7 +115,7 @@ A developer wants to run AWS CLI commands from a web browser without installing 
 
 <details><summary>◯ <b>B.</b> AWS CloudFormation</summary>
 
-❌ **Incorrect.** CloudFormation provisions infrastructure from templates. It does not provide a command-line environment.
+❌ **Incorrect.** CloudFormation provisions infrastructure from templates but has no command-line environment.
 
 </details>
 
@@ -139,9 +131,7 @@ A developer wants to run AWS CLI commands from a web browser without installing 
 
 </details>
 
-📖 **Study:** [5.1 Ways to Interact with AWS (Console, CLI, SDK, CloudShell)](../README.md#51-ways-to-interact-with-aws-console-cli-sdk-cloudshell)
-
----
+Study: [5.1 Ways to Interact with AWS (Console, CLI, SDK, CloudShell)](../README.md#51-ways-to-interact-with-aws-console-cli-sdk-cloudshell)
 
 ### Question 5
 
@@ -179,10 +169,8 @@ Which TWO statements about the AWS Cloud Development Kit (AWS CDK) are correct?
 
 </details>
 
-📖 **Study:** [5.3 Infrastructure as Code (IaC): CloudFormation & StackSets & CDK](../README.md#53-infrastructure-as-code-iac-cloudformation--stacksets--cdk)
+Study: [5.3 Infrastructure as Code (IaC): CloudFormation & StackSets & CDK](../README.md#53-infrastructure-as-code-iac-cloudformation--stacksets--cdk)
 
----
-
-[⬅️ Study guide: 5. 🧰 Management, Governance & Developer Tools](../README.md#5--management-governance--developer-tools) · [📚 All topics](README.md) · [Next: 6. 🤝 AWS Shared Responsibility Model ➡️](06-shared-responsibility-model.md)
+[Study guide: 5. Management, Governance & Developer Tools](../README.md#5--management-governance--developer-tools) · [All topics](README.md) · [Next: 6. AWS Shared Responsibility Model](06-shared-responsibility-model.md)
 
 *Original exam-style practice questions written for this study guide. They are not actual AWS exam questions, and this project is not affiliated with or endorsed by AWS.*

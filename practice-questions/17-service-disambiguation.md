@@ -1,11 +1,9 @@
-# 📝 Practice Questions: 17. 🆚 High-Yield Exam "Cheat Sheet" & Service Disambiguation
+# Practice questions: 17. High-Yield Exam "Cheat Sheet" & Service Disambiguation
 
-[⬅️ Study guide: 17. 🆚 High-Yield Exam "Cheat Sheet" & Service Disambiguation](../README.md#17--high-yield-exam-cheat-sheet--service-disambiguation) · [📚 All topics](README.md) · [Next: 18. 🎓 Exam Strategy & Last-Minute Checklist ➡️](18-exam-strategy.md)
+[Study guide: 17. High-Yield Exam "Cheat Sheet" & Service Disambiguation](../README.md#17--high-yield-exam-cheat-sheet--service-disambiguation) · [All topics](README.md) · [Next: 18. Exam Strategy & Last-Minute Checklist](18-exam-strategy.md)
 
 > [!NOTE]
-> **How to practice:** read the question, decide on your answer, then **click an option** to reveal whether it is ✅ right or ❌ wrong, and why. ◯ means choose **one** answer. ☐ means choose **all** the answers the question asks for, so click each option you think is correct.
-
----
+> Read the question and decide on your answer, then click an option to see whether it is right or wrong and why. A round marker (◯) means pick one answer. A square marker (☐) means pick every answer the question asks for, so click each option you think is correct.
 
 ### Question 1
 
@@ -15,7 +13,7 @@ Which service automatically scans Amazon EC2 instances, container images in Amaz
 
 <details><summary>◯ <b>A.</b> AWS Artifact</summary>
 
-❌ **Incorrect.** Artifact provides AWS's own compliance reports and agreements. It does not scan your workloads.
+❌ **Incorrect.** Artifact provides AWS's own compliance reports and agreements but does not scan your workloads.
 
 </details>
 
@@ -37,9 +35,7 @@ Which service automatically scans Amazon EC2 instances, container images in Amaz
 
 </details>
 
-📖 **Study:** [17.1 Commonly Confused Services Cheat Sheet](../README.md#171-commonly-confused-services-cheat-sheet)
-
----
+Study: [17.1 Commonly Confused Services Cheat Sheet](../README.md#171-commonly-confused-services-cheat-sheet)
 
 ### Question 2
 
@@ -55,13 +51,13 @@ Which AWS service shows scheduled maintenance and resource retirements that spec
 
 <details><summary>◯ <b>B.</b> AWS Trusted Advisor</summary>
 
-❌ **Incorrect.** Trusted Advisor gives best-practice recommendations. It does not report scheduled maintenance events.
+❌ **Incorrect.** Trusted Advisor gives best-practice recommendations but does not report scheduled maintenance events.
 
 </details>
 
 <details><summary>◯ <b>C.</b> Amazon CloudWatch</summary>
 
-❌ **Incorrect.** CloudWatch collects metrics and logs about your resources. It does not announce AWS maintenance events.
+❌ **Incorrect.** CloudWatch collects metrics and logs about your resources. Announcing AWS maintenance events is not part of its job.
 
 </details>
 
@@ -71,9 +67,7 @@ Which AWS service shows scheduled maintenance and resource retirements that spec
 
 </details>
 
-📖 **Study:** [16.4 AWS Trusted Advisor & Health Dashboard](../README.md#164-aws-trusted-advisor--health-dashboard)
-
----
+Study: [16.4 AWS Trusted Advisor & Health Dashboard](../README.md#164-aws-trusted-advisor--health-dashboard)
 
 ### Question 3
 
@@ -111,9 +105,7 @@ Which TWO statements about Elastic Load Balancing types are correct?
 
 </details>
 
-📖 **Study:** [17.1 Commonly Confused Services Cheat Sheet](../README.md#171-commonly-confused-services-cheat-sheet)
-
----
+Study: [17.1 Commonly Confused Services Cheat Sheet](../README.md#171-commonly-confused-services-cheat-sheet)
 
 ### Question 4
 
@@ -145,9 +137,7 @@ A company requires a dedicated, single-tenant hardware security module (HSM) tha
 
 </details>
 
-📖 **Study:** [17.1 Commonly Confused Services Cheat Sheet](../README.md#171-commonly-confused-services-cheat-sheet)
-
----
+Study: [17.1 Commonly Confused Services Cheat Sheet](../README.md#171-commonly-confused-services-cheat-sheet)
 
 ### Question 5
 
@@ -175,14 +165,12 @@ A company wants a ready-made list of under-utilized EC2 instances without buildi
 
 <details><summary>◯ <b>D.</b> AWS Trusted Advisor</summary>
 
-✅ **Correct.** Trusted Advisor runs checks, such as idle or low-utilization EC2 instances, and gives recommendations out of the box. The cost optimization checks need a Business-level or higher Support plan.
+✅ **Correct.** Trusted Advisor runs checks, such as idle or low-utilization EC2 instances, and gives recommendations out of the box. The cost optimization checks need Business Support+ or a higher plan.
 
 </details>
 
-📖 **Study:** [17.1 Commonly Confused Services Cheat Sheet](../README.md#171-commonly-confused-services-cheat-sheet)
+Study: [17.1 Commonly Confused Services Cheat Sheet](../README.md#171-commonly-confused-services-cheat-sheet)
 
----
-
-[⬅️ Study guide: 17. 🆚 High-Yield Exam "Cheat Sheet" & Service Disambiguation](../README.md#17--high-yield-exam-cheat-sheet--service-disambiguation) · [📚 All topics](README.md) · [Next: 18. 🎓 Exam Strategy & Last-Minute Checklist ➡️](18-exam-strategy.md)
+[Study guide: 17. High-Yield Exam "Cheat Sheet" & Service Disambiguation](../README.md#17--high-yield-exam-cheat-sheet--service-disambiguation) · [All topics](README.md) · [Next: 18. Exam Strategy & Last-Minute Checklist](18-exam-strategy.md)
 
 *Original exam-style practice questions written for this study guide. They are not actual AWS exam questions, and this project is not affiliated with or endorsed by AWS.*

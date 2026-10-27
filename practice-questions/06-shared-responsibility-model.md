@@ -1,11 +1,9 @@
-# 📝 Practice Questions: 6. 🤝 AWS Shared Responsibility Model
+# Practice questions: 6. AWS Shared Responsibility Model
 
-[⬅️ Study guide: 6. 🤝 AWS Shared Responsibility Model](../README.md#6--aws-shared-responsibility-model) · [📚 All topics](README.md) · [Next: 7. 💻 Compute Services ➡️](07-compute-services.md)
+[Study guide: 6. AWS Shared Responsibility Model](../README.md#6--aws-shared-responsibility-model) · [All topics](README.md) · [Next: 7. Compute Services](07-compute-services.md)
 
 > [!NOTE]
-> **How to practice:** read the question, decide on your answer, then **click an option** to reveal whether it is ✅ right or ❌ wrong, and why. ◯ means choose **one** answer. ☐ means choose **all** the answers the question asks for, so click each option you think is correct.
-
----
+> Read the question and decide on your answer, then click an option to see whether it is right or wrong and why. A round marker (◯) means pick one answer. A square marker (☐) means pick every answer the question asks for, so click each option you think is correct.
 
 ### Question 1
 
@@ -27,7 +25,7 @@ Under the AWS Shared Responsibility Model, which task is the responsibility of A
 
 <details><summary>◯ <b>C.</b> Configuring security group rules</summary>
 
-❌ **Incorrect.** Network and firewall configuration of the customer's resources is the customer's responsibility.
+❌ **Incorrect.** Customers manage the network and firewall configuration of their own resources.
 
 </details>
 
@@ -37,9 +35,7 @@ Under the AWS Shared Responsibility Model, which task is the responsibility of A
 
 </details>
 
-📖 **Study:** [6.1 The Core Model: "OF" vs. "IN" the Cloud](../README.md#61-the-core-model-of-vs-in-the-cloud)
-
----
+Study: [6.1 The Core Model: "OF" vs. "IN" the Cloud](../README.md#61-the-core-model-of-vs-in-the-cloud)
 
 ### Question 2
 
@@ -71,9 +67,7 @@ Which of the following is an example of a SHARED control in the AWS Shared Respo
 
 </details>
 
-📖 **Study:** [6.3 Shared Controls Matrix](../README.md#63-shared-controls-matrix)
-
----
+Study: [6.3 Shared Controls Matrix](../README.md#63-shared-controls-matrix)
 
 ### Question 3
 
@@ -101,19 +95,17 @@ Which TWO are the customer's responsibility under the AWS Shared Responsibility 
 
 <details><summary>☐ <b>D.</b> Replacing failed disks in AWS data centers</summary>
 
-❌ **Incorrect.** Hardware maintenance in AWS facilities is the responsibility of AWS.
+❌ **Incorrect.** AWS handles hardware maintenance in its own facilities.
 
 </details>
 
 <details><summary>☐ <b>E.</b> Patching the hypervisor</summary>
 
-❌ **Incorrect.** The virtualization layer is the responsibility of AWS.
+❌ **Incorrect.** AWS is responsible for the virtualization layer.
 
 </details>
 
-📖 **Study:** [6.1 The Core Model: "OF" vs. "IN" the Cloud](../README.md#61-the-core-model-of-vs-in-the-cloud)
-
----
+Study: [6.1 The Core Model: "OF" vs. "IN" the Cloud](../README.md#61-the-core-model-of-vs-in-the-cloud)
 
 ### Question 4
 
@@ -129,7 +121,7 @@ A company runs a custom web application on Amazon EC2 instances. Who is responsi
 
 <details><summary>◯ <b>B.</b> Amazon Inspector</summary>
 
-❌ **Incorrect.** Inspector scans for software vulnerabilities and reports findings. It does not install patches.
+❌ **Incorrect.** Inspector scans for software vulnerabilities and reports findings but does not install patches.
 
 </details>
 
@@ -145,9 +137,7 @@ A company runs a custom web application on Amazon EC2 instances. Who is responsi
 
 </details>
 
-📖 **Study:** [6.2 Shared Responsibility Across Service Models](../README.md#62-shared-responsibility-across-service-models)
-
----
+Study: [6.2 Shared Responsibility Across Service Models](../README.md#62-shared-responsibility-across-service-models)
 
 ### Question 5
 
@@ -157,7 +147,7 @@ A company uses Amazon RDS for MySQL. Which task remains the customer's responsib
 
 <details><summary>◯ <b>A.</b> Patching the database engine software</summary>
 
-❌ **Incorrect.** RDS is a managed service, so AWS provides and applies the engine patches, during the maintenance window that you configure.
+❌ **Incorrect.** RDS is a managed service, so AWS provides and applies the engine patches during the maintenance window that you configure.
 
 </details>
 
@@ -179,10 +169,8 @@ A company uses Amazon RDS for MySQL. Which task remains the customer's responsib
 
 </details>
 
-📖 **Study:** [6.2 Shared Responsibility Across Service Models](../README.md#62-shared-responsibility-across-service-models)
+Study: [6.2 Shared Responsibility Across Service Models](../README.md#62-shared-responsibility-across-service-models)
 
----
-
-[⬅️ Study guide: 6. 🤝 AWS Shared Responsibility Model](../README.md#6--aws-shared-responsibility-model) · [📚 All topics](README.md) · [Next: 7. 💻 Compute Services ➡️](07-compute-services.md)
+[Study guide: 6. AWS Shared Responsibility Model](../README.md#6--aws-shared-responsibility-model) · [All topics](README.md) · [Next: 7. Compute Services](07-compute-services.md)
 
 *Original exam-style practice questions written for this study guide. They are not actual AWS exam questions, and this project is not affiliated with or endorsed by AWS.*

@@ -1,11 +1,9 @@
-# 📝 Practice Questions: 18. 🎓 Exam Strategy & Last-Minute Checklist
+# Practice questions: 18. Exam Strategy & Last-Minute Checklist
 
-[⬅️ Study guide: 18. 🎓 Exam Strategy & Last-Minute Checklist](../README.md#18--exam-strategy--last-minute-checklist) · [📚 All topics](README.md)
+[Study guide: 18. Exam Strategy & Last-Minute Checklist](../README.md#18--exam-strategy--last-minute-checklist) · [All topics](README.md)
 
 > [!NOTE]
-> **How to practice:** read the question, decide on your answer, then **click an option** to reveal whether it is ✅ right or ❌ wrong, and why. ◯ means choose **one** answer. ☐ means choose **all** the answers the question asks for, so click each option you think is correct.
-
----
+> Read the question and decide on your answer, then click an option to see whether it is right or wrong and why. A round marker (◯) means pick one answer. A square marker (☐) means pick every answer the question asks for, so click each option you think is correct.
 
 ### Question 1
 
@@ -37,9 +35,7 @@ AWS can offer lower pay-as-you-go prices because it aggregates the usage of hund
 
 </details>
 
-📖 **Study:** [1.3 The 6 Advantages of Cloud Computing](../README.md#13-the-6-advantages-of-cloud-computing)
-
----
+Study: [1.3 The 6 Advantages of Cloud Computing](../README.md#13-the-6-advantages-of-cloud-computing)
 
 ### Question 2
 
@@ -47,9 +43,9 @@ Which TWO statements about AWS Support plans are correct?
 
 *☐ Choose TWO.*
 
-<details><summary>☐ <b>A.</b> Business Support includes a designated Technical Account Manager</summary>
+<details><summary>☐ <b>A.</b> Business Support+ includes a designated Technical Account Manager</summary>
 
-❌ **Incorrect.** Business-level plans do not include a designated TAM. That comes with Enterprise Support.
+❌ **Incorrect.** A designated TAM comes with Enterprise Support, not with Business Support+.
 
 </details>
 
@@ -61,13 +57,13 @@ Which TWO statements about AWS Support plans are correct?
 
 <details><summary>☐ <b>C.</b> Basic Support includes 24/7 technical support by phone</summary>
 
-❌ **Incorrect.** Basic does not include technical support. It covers account and billing questions.
+❌ **Incorrect.** Basic has no technical support. It covers account and billing questions.
 
 </details>
 
 <details><summary>☐ <b>D.</b> Only Enterprise Support includes the full set of Trusted Advisor checks</summary>
 
-❌ **Incorrect.** Business-level plans and above also include the full set of checks.
+❌ **Incorrect.** Business Support+ and the higher plans also include the full set of checks.
 
 </details>
 
@@ -77,9 +73,7 @@ Which TWO statements about AWS Support plans are correct?
 
 </details>
 
-📖 **Study:** [16.3 AWS Support Plans Comparison (Detailed Matrix)](../README.md#163-aws-support-plans-comparison-detailed-matrix)
-
----
+Study: [16.3 AWS Support Plans Comparison (Detailed Matrix)](../README.md#163-aws-support-plans-comparison-detailed-matrix)
 
 ### Question 3
 
@@ -111,9 +105,7 @@ An Amazon Linux EC2 instance runs for 30 seconds and is then terminated. For how
 
 </details>
 
-📖 **Study:** [7.1 Amazon Elastic Compute Cloud (EC2) Overview & Families](../README.md#71-amazon-elastic-compute-cloud-ec2-overview--families)
-
----
+Study: [7.1 Amazon Elastic Compute Cloud (EC2) Overview & Families](../README.md#71-amazon-elastic-compute-cloud-ec2-overview--families)
 
 ### Question 4
 
@@ -145,9 +137,7 @@ Which of the following does NOT encrypt data at rest by default unless the custo
 
 </details>
 
-📖 **Study:** [8.3 Amazon EBS vs. EC2 Instance Store](../README.md#83-amazon-ebs-vs-ec2-instance-store)
-
----
+Study: [8.3 Amazon EBS vs. EC2 Instance Store](../README.md#83-amazon-ebs-vs-ec2-instance-store)
 
 ### Question 5
 
@@ -175,14 +165,12 @@ A company wants to centralize operating system and application log files from it
 
 <details><summary>◯ <b>D.</b> Amazon Inspector</summary>
 
-❌ **Incorrect.** Inspector scans for software vulnerabilities. It does not collect logs.
+❌ **Incorrect.** Inspector scans for software vulnerabilities and does not collect logs.
 
 </details>
 
-📖 **Study:** [13.3 Observability: Amazon CloudWatch vs. AWS CloudTrail](../README.md#133-observability-amazon-cloudwatch-vs-aws-cloudtrail)
+Study: [13.3 Observability: Amazon CloudWatch vs. AWS CloudTrail](../README.md#133-observability-amazon-cloudwatch-vs-aws-cloudtrail)
 
----
-
-[⬅️ Study guide: 18. 🎓 Exam Strategy & Last-Minute Checklist](../README.md#18--exam-strategy--last-minute-checklist) · [📚 All topics](README.md)
+[Study guide: 18. Exam Strategy & Last-Minute Checklist](../README.md#18--exam-strategy--last-minute-checklist) · [All topics](README.md)
 
 *Original exam-style practice questions written for this study guide. They are not actual AWS exam questions, and this project is not affiliated with or endorsed by AWS.*

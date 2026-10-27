@@ -1,11 +1,9 @@
-# 📝 Practice Questions: 15. 🏛️ AWS Well-Architected Framework
+# Practice questions: 15. AWS Well-Architected Framework
 
-[⬅️ Study guide: 15. 🏛️ AWS Well-Architected Framework](../README.md#15-️-aws-well-architected-framework) · [📚 All topics](README.md) · [Next: 16. 💰 Billing, Pricing & Support Plans ➡️](16-billing-pricing-support.md)
+[Study guide: 15. AWS Well-Architected Framework](../README.md#15-️-aws-well-architected-framework) · [All topics](README.md) · [Next: 16. Billing, Pricing & Support Plans](16-billing-pricing-support.md)
 
 > [!NOTE]
-> **How to practice:** read the question, decide on your answer, then **click an option** to reveal whether it is ✅ right or ❌ wrong, and why. ◯ means choose **one** answer. ☐ means choose **all** the answers the question asks for, so click each option you think is correct.
-
----
+> Read the question and decide on your answer, then click an option to see whether it is right or wrong and why. A round marker (◯) means pick one answer. A square marker (☐) means pick every answer the question asks for, so click each option you think is correct.
 
 ### Question 1
 
@@ -37,9 +35,7 @@ A company wants to "go global in minutes" and use serverless architectures to me
 
 </details>
 
-📖 **Study:** [15.1 The 6 Pillars & Their Core Design Principles](../README.md#151-the-6-pillars--their-core-design-principles)
-
----
+Study: [15.1 The 6 Pillars & Their Core Design Principles](../README.md#151-the-6-pillars--their-core-design-principles)
 
 ### Question 2
 
@@ -71,9 +67,7 @@ A company wants to maintain traceability, apply security at all layers, and impl
 
 </details>
 
-📖 **Study:** [15.1 The 6 Pillars & Their Core Design Principles](../README.md#151-the-6-pillars--their-core-design-principles)
-
----
+Study: [15.1 The 6 Pillars & Their Core Design Principles](../README.md#151-the-6-pillars--their-core-design-principles)
 
 ### Question 3
 
@@ -111,9 +105,7 @@ Which TWO are pillars of the AWS Well-Architected Framework?
 
 </details>
 
-📖 **Study:** [15.1 The 6 Pillars & Their Core Design Principles](../README.md#151-the-6-pillars--their-core-design-principles)
-
----
+Study: [15.1 The 6 Pillars & Their Core Design Principles](../README.md#151-the-6-pillars--their-core-design-principles)
 
 ### Question 4
 
@@ -145,9 +137,7 @@ Which Well-Architected pillar includes the design principles "automatically reco
 
 </details>
 
-📖 **Study:** [15.1 The 6 Pillars & Their Core Design Principles](../README.md#151-the-6-pillars--their-core-design-principles)
-
----
+Study: [15.1 The 6 Pillars & Their Core Design Principles](../README.md#151-the-6-pillars--their-core-design-principles)
 
 ### Question 5
 
@@ -179,10 +169,8 @@ A company adopts a consumption model, measures its overall efficiency, and analy
 
 </details>
 
-📖 **Study:** [15.1 The 6 Pillars & Their Core Design Principles](../README.md#151-the-6-pillars--their-core-design-principles)
+Study: [15.1 The 6 Pillars & Their Core Design Principles](../README.md#151-the-6-pillars--their-core-design-principles)
 
----
-
-[⬅️ Study guide: 15. 🏛️ AWS Well-Architected Framework](../README.md#15-️-aws-well-architected-framework) · [📚 All topics](README.md) · [Next: 16. 💰 Billing, Pricing & Support Plans ➡️](16-billing-pricing-support.md)
+[Study guide: 15. AWS Well-Architected Framework](../README.md#15-️-aws-well-architected-framework) · [All topics](README.md) · [Next: 16. Billing, Pricing & Support Plans](16-billing-pricing-support.md)
 
 *Original exam-style practice questions written for this study guide. They are not actual AWS exam questions, and this project is not affiliated with or endorsed by AWS.*

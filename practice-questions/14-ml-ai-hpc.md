@@ -1,11 +1,9 @@
-# 📝 Practice Questions: 14. 🤖 Machine Learning, AI & High-Performance Compute
+# Practice questions: 14. Machine Learning, AI & High-Performance Compute
 
-[⬅️ Study guide: 14. 🤖 Machine Learning, AI & High-Performance Compute](../README.md#14--machine-learning-ai--high-performance-compute) · [📚 All topics](README.md) · [Next: 15. 🏛️ AWS Well-Architected Framework ➡️](15-well-architected-framework.md)
+[Study guide: 14. Machine Learning, AI & High-Performance Compute](../README.md#14--machine-learning-ai--high-performance-compute) · [All topics](README.md) · [Next: 15. AWS Well-Architected Framework](15-well-architected-framework.md)
 
 > [!NOTE]
-> **How to practice:** read the question, decide on your answer, then **click an option** to reveal whether it is ✅ right or ❌ wrong, and why. ◯ means choose **one** answer. ☐ means choose **all** the answers the question asks for, so click each option you think is correct.
-
----
+> Read the question and decide on your answer, then click an option to see whether it is right or wrong and why. A round marker (◯) means pick one answer. A square marker (☐) means pick every answer the question asks for, so click each option you think is correct.
 
 ### Question 1
 
@@ -37,9 +35,7 @@ A company wants to turn written text into lifelike speech for a voice assistant.
 
 </details>
 
-📖 **Study:** [14.1 Generative AI & Turnkey AI Services (Bedrock, SageMaker, Q, etc.)](../README.md#141-generative-ai--turnkey-ai-services-bedrock-sagemaker-q-etc)
-
----
+Study: [14.1 Generative AI & Turnkey AI Services (Bedrock, SageMaker, Q, etc.)](../README.md#141-generative-ai--turnkey-ai-services-bedrock-sagemaker-q-etc)
 
 ### Question 2
 
@@ -71,9 +67,7 @@ A company wants to build generative AI applications using foundation models from
 
 </details>
 
-📖 **Study:** [14.1 Generative AI & Turnkey AI Services (Bedrock, SageMaker, Q, etc.)](../README.md#141-generative-ai--turnkey-ai-services-bedrock-sagemaker-q-etc)
-
----
+Study: [14.1 Generative AI & Turnkey AI Services (Bedrock, SageMaker, Q, etc.)](../README.md#141-generative-ai--turnkey-ai-services-bedrock-sagemaker-q-etc)
 
 ### Question 3
 
@@ -83,7 +77,7 @@ Which TWO AWS-designed chips are purpose-built for deep learning workloads?
 
 <details><summary>☐ <b>A.</b> AWS Graviton</summary>
 
-❌ **Incorrect.** Graviton is an AWS-designed ARM-based CPU for general-purpose workloads, not a deep learning accelerator.
+❌ **Incorrect.** Graviton is an AWS-designed ARM-based CPU for general-purpose workloads, so it is not a deep learning accelerator.
 
 </details>
 
@@ -107,13 +101,11 @@ Which TWO AWS-designed chips are purpose-built for deep learning workloads?
 
 <details><summary>☐ <b>E.</b> AWS Inferentia</summary>
 
-✅ **Correct.** Inferentia is designed for deep learning inference, delivering predictions at low cost.
+✅ **Correct.** Inferentia is designed for deep learning inference and delivers predictions at low cost.
 
 </details>
 
-📖 **Study:** [14.2 Custom AI Silicon: Trainium, Inferentia, Graviton](../README.md#142-custom-ai-silicon-trainium-inferentia-graviton)
-
----
+Study: [14.2 Custom AI Silicon: Trainium, Inferentia, Graviton](../README.md#142-custom-ai-silicon-trainium-inferentia-graviton)
 
 ### Question 4
 
@@ -135,7 +127,7 @@ A company needs to extract printed text, handwriting, forms, and tables from sca
 
 <details><summary>◯ <b>C.</b> Amazon Comprehend</summary>
 
-❌ **Incorrect.** Comprehend analyzes the meaning of text, such as sentiment, entities, and key phrases. It does not extract forms and tables from documents.
+❌ **Incorrect.** Comprehend analyzes the meaning of text, such as sentiment, entities, and key phrases. Extracting forms and tables from documents is not part of what it does.
 
 </details>
 
@@ -145,9 +137,7 @@ A company needs to extract printed text, handwriting, forms, and tables from sca
 
 </details>
 
-📖 **Study:** [14.1 Generative AI & Turnkey AI Services (Bedrock, SageMaker, Q, etc.)](../README.md#141-generative-ai--turnkey-ai-services-bedrock-sagemaker-q-etc)
-
----
+Study: [14.1 Generative AI & Turnkey AI Services (Bedrock, SageMaker, Q, etc.)](../README.md#141-generative-ai--turnkey-ai-services-bedrock-sagemaker-q-etc)
 
 ### Question 5
 
@@ -179,10 +169,8 @@ A data science team wants a managed platform to build, train, tune, and deploy i
 
 </details>
 
-📖 **Study:** [14.1 Generative AI & Turnkey AI Services (Bedrock, SageMaker, Q, etc.)](../README.md#141-generative-ai--turnkey-ai-services-bedrock-sagemaker-q-etc)
+Study: [14.1 Generative AI & Turnkey AI Services (Bedrock, SageMaker, Q, etc.)](../README.md#141-generative-ai--turnkey-ai-services-bedrock-sagemaker-q-etc)
 
----
-
-[⬅️ Study guide: 14. 🤖 Machine Learning, AI & High-Performance Compute](../README.md#14--machine-learning-ai--high-performance-compute) · [📚 All topics](README.md) · [Next: 15. 🏛️ AWS Well-Architected Framework ➡️](15-well-architected-framework.md)
+[Study guide: 14. Machine Learning, AI & High-Performance Compute](../README.md#14--machine-learning-ai--high-performance-compute) · [All topics](README.md) · [Next: 15. AWS Well-Architected Framework](15-well-architected-framework.md)
 
 *Original exam-style practice questions written for this study guide. They are not actual AWS exam questions, and this project is not affiliated with or endorsed by AWS.*

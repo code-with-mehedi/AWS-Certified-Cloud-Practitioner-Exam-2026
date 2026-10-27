@@ -1,11 +1,9 @@
-# 📝 Practice Questions: 10. 🔌 Networking & Content Delivery
+# Practice questions: 10. Networking & Content Delivery
 
-[⬅️ Study guide: 10. 🔌 Networking & Content Delivery](../README.md#10--networking--content-delivery) · [📚 All topics](README.md) · [Next: 11. 🔐 Security, Identity & Compliance ➡️](11-security-identity-compliance.md)
+[Study guide: 10. Networking & Content Delivery](../README.md#10--networking--content-delivery) · [All topics](README.md) · [Next: 11. Security, Identity & Compliance](11-security-identity-compliance.md)
 
 > [!NOTE]
-> **How to practice:** read the question, decide on your answer, then **click an option** to reveal whether it is ✅ right or ❌ wrong, and why. ◯ means choose **one** answer. ☐ means choose **all** the answers the question asks for, so click each option you think is correct.
-
----
+> Read the question and decide on your answer, then click an option to see whether it is right or wrong and why. A round marker (◯) means pick one answer. A square marker (☐) means pick every answer the question asks for, so click each option you think is correct.
 
 ### Question 1
 
@@ -15,19 +13,19 @@ A company wants to explicitly block traffic from one malicious IP address at the
 
 <details><summary>◯ <b>A.</b> Security group</summary>
 
-❌ **Incorrect.** Security groups support allow rules only. They cannot explicitly deny an IP address.
+❌ **Incorrect.** Security groups support allow rules only, so they cannot explicitly deny an IP address.
 
 </details>
 
 <details><summary>◯ <b>B.</b> AWS Shield Standard</summary>
 
-❌ **Incorrect.** Shield Standard provides automatic DDoS protection. It is not a tool for blocking one IP address at the subnet.
+❌ **Incorrect.** Shield Standard provides automatic DDoS protection but cannot be used to block one IP address at the subnet.
 
 </details>
 
 <details><summary>◯ <b>C.</b> IAM policy</summary>
 
-❌ **Incorrect.** IAM policies control permissions for AWS API actions, not network traffic.
+❌ **Incorrect.** IAM policies control permissions for AWS API actions, and network traffic is outside their scope.
 
 </details>
 
@@ -37,9 +35,7 @@ A company wants to explicitly block traffic from one malicious IP address at the
 
 </details>
 
-📖 **Study:** [10.2 Security Groups vs. Network ACLs (NACLs)](../README.md#102-security-groups-vs-network-acls-nacls)
-
----
+Study: [10.2 Security Groups vs. Network ACLs (NACLs)](../README.md#102-security-groups-vs-network-acls-nacls)
 
 ### Question 2
 
@@ -61,19 +57,17 @@ A company serves images and videos from an S3 bucket to users around the world a
 
 <details><summary>◯ <b>C.</b> Amazon Route 53</summary>
 
-❌ **Incorrect.** Route 53 is a DNS service. It routes users to endpoints but does not cache content.
+❌ **Incorrect.** Route 53 is a DNS service that routes users to endpoints without caching any content.
 
 </details>
 
 <details><summary>◯ <b>D.</b> AWS Direct Connect</summary>
 
-❌ **Incorrect.** Direct Connect is a private link between a data center and AWS, not a global content cache.
+❌ **Incorrect.** Direct Connect is a private link between a data center and AWS and cannot act as a global content cache.
 
 </details>
 
-📖 **Study:** [10.5 Content Delivery & DNS: CloudFront & Route 53](../README.md#105-content-delivery--dns-cloudfront--route-53)
-
----
+Study: [10.5 Content Delivery & DNS: CloudFront & Route 53](../README.md#105-content-delivery--dns-cloudfront--route-53)
 
 ### Question 3
 
@@ -95,7 +89,7 @@ Instances in a private subnet must download operating system patches from the in
 
 <details><summary>◯ <b>C.</b> A VPC peering connection</summary>
 
-❌ **Incorrect.** Peering connects two VPCs privately. It does not give private instances outbound internet access.
+❌ **Incorrect.** Peering connects two VPCs privately and gives private instances no outbound internet access.
 
 </details>
 
@@ -105,9 +99,7 @@ Instances in a private subnet must download operating system patches from the in
 
 </details>
 
-📖 **Study:** [10.1 Amazon Virtual Private Cloud (VPC), Subnets & Gateways](../README.md#101-amazon-virtual-private-cloud-vpc-subnets--gateways)
-
----
+Study: [10.1 Amazon Virtual Private Cloud (VPC), Subnets & Gateways](../README.md#101-amazon-virtual-private-cloud-vpc-subnets--gateways)
 
 ### Question 4
 
@@ -145,9 +137,7 @@ Which TWO statements about connecting VPCs and networks are correct?
 
 </details>
 
-📖 **Study:** [10.3 Hybrid Connectivity: Direct Connect, VPN & Transit Gateway](../README.md#103-hybrid-connectivity-direct-connect-vpn--transit-gateway)
-
----
+Study: [10.3 Hybrid Connectivity: Direct Connect, VPN & Transit Gateway](../README.md#103-hybrid-connectivity-direct-connect-vpn--transit-gateway)
 
 ### Question 5
 
@@ -157,7 +147,7 @@ A company needs a dedicated private physical connection from its data center to 
 
 <details><summary>◯ <b>A.</b> AWS Site-to-Site VPN</summary>
 
-❌ **Incorrect.** A VPN creates encrypted tunnels over the public internet. It is not a dedicated physical link.
+❌ **Incorrect.** A VPN creates encrypted tunnels over the public internet, so it is not a dedicated physical link.
 
 </details>
 
@@ -175,14 +165,12 @@ A company needs a dedicated private physical connection from its data center to 
 
 <details><summary>◯ <b>D.</b> AWS Global Accelerator</summary>
 
-❌ **Incorrect.** Global Accelerator routes user traffic over the AWS global network. It does not connect a data center to AWS.
+❌ **Incorrect.** Global Accelerator routes user traffic over the AWS global network and gives a data center no connection to AWS.
 
 </details>
 
-📖 **Study:** [10.3 Hybrid Connectivity: Direct Connect, VPN & Transit Gateway](../README.md#103-hybrid-connectivity-direct-connect-vpn--transit-gateway)
+Study: [10.3 Hybrid Connectivity: Direct Connect, VPN & Transit Gateway](../README.md#103-hybrid-connectivity-direct-connect-vpn--transit-gateway)
 
----
-
-[⬅️ Study guide: 10. 🔌 Networking & Content Delivery](../README.md#10--networking--content-delivery) · [📚 All topics](README.md) · [Next: 11. 🔐 Security, Identity & Compliance ➡️](11-security-identity-compliance.md)
+[Study guide: 10. Networking & Content Delivery](../README.md#10--networking--content-delivery) · [All topics](README.md) · [Next: 11. Security, Identity & Compliance](11-security-identity-compliance.md)
 
 *Original exam-style practice questions written for this study guide. They are not actual AWS exam questions, and this project is not affiliated with or endorsed by AWS.*

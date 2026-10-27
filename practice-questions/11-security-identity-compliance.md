@@ -1,11 +1,9 @@
-# 📝 Practice Questions: 11. 🔐 Security, Identity & Compliance
+# Practice questions: 11. Security, Identity & Compliance
 
-[⬅️ Study guide: 11. 🔐 Security, Identity & Compliance](../README.md#11--security-identity--compliance) · [📚 All topics](README.md) · [Next: 12. 🔄 Application Integration & Messaging ➡️](12-application-integration-messaging.md)
+[Study guide: 11. Security, Identity & Compliance](../README.md#11--security-identity--compliance) · [All topics](README.md) · [Next: 12. Application Integration & Messaging](12-application-integration-messaging.md)
 
 > [!NOTE]
-> **How to practice:** read the question, decide on your answer, then **click an option** to reveal whether it is ✅ right or ❌ wrong, and why. ◯ means choose **one** answer. ☐ means choose **all** the answers the question asks for, so click each option you think is correct.
-
----
+> Read the question and decide on your answer, then click an option to see whether it is right or wrong and why. A round marker (◯) means pick one answer. A square marker (☐) means pick every answer the question asks for, so click each option you think is correct.
 
 ### Question 1
 
@@ -33,13 +31,11 @@ Which service uses machine learning to analyze AWS CloudTrail events, VPC Flow L
 
 <details><summary>◯ <b>D.</b> AWS WAF</summary>
 
-❌ **Incorrect.** WAF filters malicious web requests. It does not analyze logs for threats.
+❌ **Incorrect.** WAF filters malicious web requests and does not analyze logs for threats.
 
 </details>
 
-📖 **Study:** [11.4 Threat Detection & Boundary Security (Shield, WAF, GuardDuty, Inspector)](../README.md#114-threat-detection--boundary-security-shield-waf-guardduty-inspector)
-
----
+Study: [11.4 Threat Detection & Boundary Security (Shield, WAF, GuardDuty, Inspector)](../README.md#114-threat-detection--boundary-security-shield-waf-guardduty-inspector)
 
 ### Question 2
 
@@ -55,7 +51,7 @@ Which TWO AWS services help protect web applications from common exploits and DD
 
 <details><summary>☐ <b>B.</b> AWS KMS</summary>
 
-❌ **Incorrect.** KMS creates and manages encryption keys. It does not filter web traffic.
+❌ **Incorrect.** KMS creates and manages encryption keys and has no part in filtering web traffic.
 
 </details>
 
@@ -77,9 +73,7 @@ Which TWO AWS services help protect web applications from common exploits and DD
 
 </details>
 
-📖 **Study:** [11.4 Threat Detection & Boundary Security (Shield, WAF, GuardDuty, Inspector)](../README.md#114-threat-detection--boundary-security-shield-waf-guardduty-inspector)
-
----
+Study: [11.4 Threat Detection & Boundary Security (Shield, WAF, GuardDuty, Inspector)](../README.md#114-threat-detection--boundary-security-shield-waf-guardduty-inspector)
 
 ### Question 3
 
@@ -101,19 +95,17 @@ Where can a compliance officer download AWS's SOC reports and ISO certifications
 
 <details><summary>◯ <b>C.</b> AWS Config</summary>
 
-❌ **Incorrect.** Config tracks the configuration of your resources over time. It does not provide AWS audit reports.
+❌ **Incorrect.** Config tracks the configuration of your resources over time, and AWS audit reports are not among its outputs.
 
 </details>
 
 <details><summary>◯ <b>D.</b> AWS Security Hub</summary>
 
-❌ **Incorrect.** Security Hub aggregates security findings and posture checks for your accounts, not AWS's own compliance reports.
+❌ **Incorrect.** Security Hub aggregates security findings and posture checks for your accounts and does not include AWS's own compliance reports.
 
 </details>
 
-📖 **Study:** [11.5 Governance & Compliance: AWS Artifact, Audit Manager, Macie, Security Hub](../README.md#115-governance--compliance-aws-artifact-audit-manager-macie-security-hub)
-
----
+Study: [11.5 Governance & Compliance: AWS Artifact, Audit Manager, Macie, Security Hub](../README.md#115-governance--compliance-aws-artifact-audit-manager-macie-security-hub)
 
 ### Question 4
 
@@ -135,7 +127,7 @@ An application on an EC2 instance needs to read objects from an Amazon S3 bucket
 
 <details><summary>◯ <b>C.</b> Make the S3 bucket public</summary>
 
-❌ **Incorrect.** A public bucket exposes the data to everyone, not only to the application.
+❌ **Incorrect.** A public bucket exposes the data to everyone, well beyond the one application that needs it.
 
 </details>
 
@@ -145,9 +137,7 @@ An application on an EC2 instance needs to read objects from an Amazon S3 bucket
 
 </details>
 
-📖 **Study:** [11.1 AWS Identity and Access Management (IAM) Entities & PoLP](../README.md#111-aws-identity-and-access-management-iam-entities--polp)
-
----
+Study: [11.1 AWS Identity and Access Management (IAM) Entities & PoLP](../README.md#111-aws-identity-and-access-management-iam-entities--polp)
 
 ### Question 5
 
@@ -157,7 +147,7 @@ A company is building a mobile app and wants its customers to sign up and sign i
 
 <details><summary>◯ <b>A.</b> AWS IAM Identity Center</summary>
 
-❌ **Incorrect.** Identity Center provides single sign-on for a company's workforce to AWS accounts and business applications, not for app customers.
+❌ **Incorrect.** Identity Center provides single sign-on for a company's workforce to AWS accounts and business applications, so it does not cover app customers.
 
 </details>
 
@@ -179,10 +169,8 @@ A company is building a mobile app and wants its customers to sign up and sign i
 
 </details>
 
-📖 **Study:** [11.2 AWS IAM Identity Center, Cognito & Directory Service](../README.md#112-aws-iam-identity-center-cognito--directory-service)
+Study: [11.2 AWS IAM Identity Center, Cognito & Directory Service](../README.md#112-aws-iam-identity-center-cognito--directory-service)
 
----
-
-[⬅️ Study guide: 11. 🔐 Security, Identity & Compliance](../README.md#11--security-identity--compliance) · [📚 All topics](README.md) · [Next: 12. 🔄 Application Integration & Messaging ➡️](12-application-integration-messaging.md)
+[Study guide: 11. Security, Identity & Compliance](../README.md#11--security-identity--compliance) · [All topics](README.md) · [Next: 12. Application Integration & Messaging](12-application-integration-messaging.md)
 
 *Original exam-style practice questions written for this study guide. They are not actual AWS exam questions, and this project is not affiliated with or endorsed by AWS.*

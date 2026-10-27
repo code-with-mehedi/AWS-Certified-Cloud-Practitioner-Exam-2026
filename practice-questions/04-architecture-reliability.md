@@ -1,11 +1,9 @@
-# 📝 Practice Questions: 4. 📐 Cloud Architecture & Reliability
+# Practice questions: 4. Cloud Architecture & Reliability
 
-[⬅️ Study guide: 4. 📐 Cloud Architecture & Reliability](../README.md#4--cloud-architecture--reliability) · [📚 All topics](README.md) · [Next: 5. 🧰 Management, Governance & Developer Tools ➡️](05-management-governance-developer-tools.md)
+[Study guide: 4. Cloud Architecture & Reliability](../README.md#4--cloud-architecture--reliability) · [All topics](README.md) · [Next: 5. Management, Governance & Developer Tools](05-management-governance-developer-tools.md)
 
 > [!NOTE]
-> **How to practice:** read the question, decide on your answer, then **click an option** to reveal whether it is ✅ right or ❌ wrong, and why. ◯ means choose **one** answer. ☐ means choose **all** the answers the question asks for, so click each option you think is correct.
-
----
+> Read the question and decide on your answer, then click an option to see whether it is right or wrong and why. A round marker (◯) means pick one answer. A square marker (☐) means pick every answer the question asks for, so click each option you think is correct.
 
 ### Question 1
 
@@ -49,9 +47,7 @@ Which THREE design choices improve the availability of a web application on AWS?
 
 </details>
 
-📖 **Study:** [4.3 High Availability Architecture Design](../README.md#43-high-availability-architecture-design)
-
----
+Study: [4.3 High Availability Architecture Design](../README.md#43-high-availability-architecture-design)
 
 ### Question 2
 
@@ -79,13 +75,11 @@ A company changes an Amazon EC2 instance from a t3.medium to an m5.2xlarge to ha
 
 <details><summary>◯ <b>D.</b> Elastic Load Balancing</summary>
 
-❌ **Incorrect.** A load balancer distributes traffic across targets. It does not change the size of an instance.
+❌ **Incorrect.** A load balancer distributes traffic across targets and leaves the size of each instance unchanged.
 
 </details>
 
-📖 **Study:** [4.1 Core Architecture Terminologies](../README.md#41-core-architecture-terminologies)
-
----
+Study: [4.1 Core Architecture Terminologies](../README.md#41-core-architecture-terminologies)
 
 ### Question 3
 
@@ -117,9 +111,7 @@ A company states that after a failure it can tolerate losing, at most, the last 
 
 </details>
 
-📖 **Study:** [4.2 Disaster Recovery (DR) Strategies & RTO / RPO](../README.md#42-disaster-recovery-dr-strategies--rto--rpo)
-
----
+Study: [4.2 Disaster Recovery (DR) Strategies & RTO / RPO](../README.md#42-disaster-recovery-dr-strategies--rto--rpo)
 
 ### Question 4
 
@@ -151,9 +143,7 @@ A company wants a disaster recovery strategy in which a scaled-down but fully fu
 
 </details>
 
-📖 **Study:** [4.2 Disaster Recovery (DR) Strategies & RTO / RPO](../README.md#42-disaster-recovery-dr-strategies--rto--rpo)
-
----
+Study: [4.2 Disaster Recovery (DR) Strategies & RTO / RPO](../README.md#42-disaster-recovery-dr-strategies--rto--rpo)
 
 ### Question 5
 
@@ -163,13 +153,13 @@ Amazon S3 Standard is designed for 99.999999999% (11 nines) of what?
 
 <details><summary>◯ <b>A.</b> Durability</summary>
 
-✅ **Correct.** Durability is the likelihood that stored data is not lost or corrupted over time. S3 offers 11 nines of durability.
+✅ **Correct.** Durability is the likelihood that stored data is not lost or corrupted over time. S3 has 11 nines of durability.
 
 </details>
 
 <details><summary>◯ <b>B.</b> Availability</summary>
 
-❌ **Incorrect.** S3 Standard is designed for 99.99% availability. The 11 nines figure refers to durability.
+❌ **Incorrect.** S3 Standard is designed for 99.99% availability. The 11 nines figure applies to durability.
 
 </details>
 
@@ -181,14 +171,12 @@ Amazon S3 Standard is designed for 99.999999999% (11 nines) of what?
 
 <details><summary>◯ <b>D.</b> Elasticity</summary>
 
-❌ **Incorrect.** Elasticity describes automatically adding and removing resources to match demand.
+❌ **Incorrect.** Elasticity means automatically adding and removing resources to match demand.
 
 </details>
 
-📖 **Study:** [4.1 Core Architecture Terminologies](../README.md#41-core-architecture-terminologies)
+Study: [4.1 Core Architecture Terminologies](../README.md#41-core-architecture-terminologies)
 
----
-
-[⬅️ Study guide: 4. 📐 Cloud Architecture & Reliability](../README.md#4--cloud-architecture--reliability) · [📚 All topics](README.md) · [Next: 5. 🧰 Management, Governance & Developer Tools ➡️](05-management-governance-developer-tools.md)
+[Study guide: 4. Cloud Architecture & Reliability](../README.md#4--cloud-architecture--reliability) · [All topics](README.md) · [Next: 5. Management, Governance & Developer Tools](05-management-governance-developer-tools.md)
 
 *Original exam-style practice questions written for this study guide. They are not actual AWS exam questions, and this project is not affiliated with or endorsed by AWS.*
